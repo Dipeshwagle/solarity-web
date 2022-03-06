@@ -30,7 +30,7 @@ const MenutItems = [
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-between px-5 py-4">
+    <header className="flex items-center justify-between px-5 py-4">
       <div className="py-3">
         <Logo />
       </div>
@@ -45,7 +45,7 @@ const Header = () => {
           <WalletButton/>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

@@ -4,7 +4,7 @@ import Layout from 'components/Layout';
 const Index = () => {
     return (
         <Layout>
-            
+            Main Content
         </Layout>
     );
 };
