@@ -9,12 +9,12 @@ interface Iprops {
 const TagsCollection: FC<Iprops> = ({ tags }) => {
   const [activeTagIndex, setActiveTabIndex] = useState(0);
   return (
-    <div className="flex flex-wrap gap-4 ">
+    <div className="flex flex-wrap gap-2 ">
       {tags.map((tag, index) => (
         <button
           className={classname(
             activeTagIndex === index ? "btn-secondary" : "btn-primary",
-            "rounded-full btn btn-sm  h-7 text-sm font-bold"
+            "rounded-full btn btn-sm  h-7 text-sm normal-case font-normal"
           )}
           key={index}
           onClick={() => {

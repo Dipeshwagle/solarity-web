@@ -26,7 +26,7 @@ const StoriesData = [
 
 const Index = () => {
   return (
-    <div className="flex flex-wrap items-center space-x-2 snap-x">
+    <div className="flex flex-wrap items-center gap-4 snap-x">
       {StoriesData.map(({ title, image }, index) => (
         <div
           className="relative transition duration-200 ease-in-out cursor-pointer story-item hover:opacity-90 w-[109px] h-[143px] rounded-2xl"

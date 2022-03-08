@@ -11,6 +11,7 @@ module.exports = {
         brandblack: "#1F2125",
         transparentwhite: "rgba(255, 255, 255, 0.4)",
         darkcharcoal: "#2F3336",
+        borderwidget: "rgba(37, 51, 65, 0.5)",
         gray: {
           950: "#8899A6",
         },

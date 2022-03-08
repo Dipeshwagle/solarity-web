@@ -30,7 +30,7 @@ const MenutItems = [
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between px-5 py-4">
+    <header className="flex items-center justify-between px-5 py-4 mx-auto max-w-7xl">
       <div className="py-3">
         <Logo />
       </div>
