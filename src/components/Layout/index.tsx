@@ -18,7 +18,7 @@ const Index: FC<Props> = ({ children, rightSidebar }) => {
         <Sidebar />
         <div className="mt-4 sm:col-span-7 lg:col-span-3">{children}</div>
         {rightSidebar && (
-          <div className="sticky hidden mt-4 md:block sm:col-span-2 top-10 max-h-[90vh] overflow-y-auto scrollbar-thin scrollbar-thumb-black scrollbar-track-white">{rightSidebar}</div>
+          <div className="hidden mt-4  md:block sm:col-span-2 top-10 scrollbar-thin scrollbar-thumb-black scrollbar-track-white">{rightSidebar}</div>
         )}
       </main>
     </div>
