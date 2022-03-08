@@ -1,12 +1,13 @@
-import React from 'react';
-import Layout from 'components/Layout';
+import React from "react";
+import Layout from "components/Layout";
+import Home from "modules/Home";
 
 const Index = () => {
-    return (
-        <Layout>
-            Main Content
-        </Layout>
-    );
+  return (
+    <Layout>
+      <Home />
+    </Layout>
+  );
 };
 
 export default Index;

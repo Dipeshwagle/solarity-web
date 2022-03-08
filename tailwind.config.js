@@ -1,4 +1,3 @@
-
 module.exports = {
   mode: "jit",
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
@@ -7,8 +6,21 @@ module.exports = {
       sans: ['"SF Pro Display"', "sans-serif"],
       serif: ['"SF Pro Display"', "serif"],
     },
+    extend: {
+      colors: {
+        brandblack: "#1F2125",
+        transparentwhite: "rgba(255, 255, 255, 0.4)",
+        darkcharcoal: "#2F3336",
+        gray: {
+          950: "#8899A6",
+        },
+      },
+    },
   },
-  plugins: [require("@tailwindcss/typography"), require("daisyui")],
+
+  variants: {
+    scrollbar: ["rounded"],
+  },
   daisyui: {
     styled: true,
     themes: [
@@ -22,8 +34,8 @@ module.exports = {
           "base-content": "#fff",
           info: "#AAC1E4",
           success: "#12A57C",
-          warning: "#F3B859",
-          error: "#F5403D",
+          warning: "#EC903C",
+          error: "#E0464D",
         },
       },
     ],
@@ -32,4 +44,9 @@ module.exports = {
     logs: true,
     rtl: false,
   },
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("daisyui"),
+    require("tailwind-scrollbar"),
+  ],
 };

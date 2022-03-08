@@ -8,13 +8,13 @@ interface Props {
 
 const Index: FC<Props> = ({ children }) => {
   return (
-    <div className="max-h-screen overflow-hidden">
+    <div className="max-h-screen overflow-x-hidden">
       <Header />
-      <div className="flex h-[1px] bg-[#2F3336]"></div>
-      <main className="grid grid-cols-5 grid-rows-1 gap-2 px-5 mt-4 ">
+      <div className="flex h-[1px] bg-darkcharcoal"></div>
+      <main className="grid grid-cols-6 grid-rows-1 gap-2 px-5 mt-4 ">
         <Sidebar />
-        <div className="col-span-3 mt-4 ">{children}</div>
-        <div className="mt-4 ">Right Sidebar</div>
+        <div className="mt-4 sm:col-span-7 lg:col-span-3">{children}</div>
+        <div className="hidden mt-4 md:block">Right Sidebar</div>
       </main>
     </div>
   );

@@ -8,3 +8,8 @@ export { default as PlusCircle } from "./PlusCircle";
 export { default as Sparkle } from "./Sparkle";
 export { default as Plus } from "./Plus";
 export { default as Search } from "./Search"
+export { default as VR } from "./VR"
+export { default as Download } from './Download'
+export { default as Love } from './Love'
+export { default as Calendar } from './Calendar'
+export { default as Share } from './Share'

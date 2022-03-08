@@ -3,32 +3,11 @@ import Link from "next/link";
 import { Home, Sparkle, Auction, PlusCircle, Hot } from "components/Icons";
 import DisclosureButton from "components/DisclosureButton";
 import ProfileButton from "components/ProfileButton";
+import { MY_DAOS } from "data/mock";
 
 const SideBar = () => {
-  const MY_DAOS = [
-    {
-      title: "Club Noriega",
-      imageUrl: "/images/placeholder/your-dao/Club Noriega.png",
-      link: "/dao/club-noriega",
-    },
-    {
-      title: "Taraval Lounge",
-      imageUrl: "/images/placeholder/your-dao/Taraval Lounge.png",
-      link: "/dao/taraval-lounge",
-    },
-    {
-      title: "Taraval Lounge",
-      imageUrl: "/images/placeholder/your-dao/Pacheco Crew.png",
-      link: "/dao/pacheco-crew",
-    },
-    {
-      title: "Club Noriega",
-      imageUrl: "/images/placeholder/your-dao/Club Noriegaa.png",
-      link: "/dao/club-noriega",
-    },
-  ];
   return (
-    <div className="sticky top-0 flex flex-col items-start justify-start max-h-[90vh] gap-6 pb-10 overflow-y-scroll">
+    <div className="hidden md:flex sticky top-10  flex-col items-start justify-start max-h-[90vh] gap-6 pb-10 overflow-y-auto scrollbar-thin scrollbar-thumb-black scrollbar-track-white">
       <div>
         <Link href="/dao/popular" passHref>
           <a className="gap-2 pl-4 text-lg font-bold pr-14 btn rounded-3xl">
