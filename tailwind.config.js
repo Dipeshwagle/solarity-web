@@ -29,7 +29,7 @@ module.exports = {
         customTheme: {
           primary: "#25282C",
           secondary: "#6163ff",
-          accent: "#96c4e0",
+          accent: "#FFFFFF",
           neutral: "#2C2B36",
           "base-100": "#151719",
           "base-content": "#fff",
