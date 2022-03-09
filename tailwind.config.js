@@ -1,6 +1,9 @@
 module.exports = {
   mode: "jit",
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     fontFamily: {
       sans: ['"SF Pro Display"', "sans-serif"],
@@ -18,7 +21,6 @@ module.exports = {
       },
     },
   },
-
   variants: {
     scrollbar: ["rounded"],
   },
