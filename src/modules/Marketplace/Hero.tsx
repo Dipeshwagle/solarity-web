@@ -14,7 +14,7 @@ const index = ({ imageUrl }: { imageUrl: string }) => {
           className="rounded-2xl"
         />
 
-        <button className="absolute gap-3 text-lg font-bold btn rounded-3xl bottom-2 right-2 bg-transparentwhite">
+        <button className="absolute gap-3 text-lg font-bold btn rounded-3xl bottom-2 right-2 bg-transparentwhite w-[100px]">
           <VR />
           VR
         </button>

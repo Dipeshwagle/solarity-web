@@ -3,7 +3,7 @@ import Layout from "components/Layout";
 import MarketPlace from "modules/Marketplace";
 import Hero from "modules/Marketplace/Hero";
 
-import RightSidebar from "modules/Home/RightSidebar";
+import RightSidebar from "modules/Marketplace/RightSidebar";
 
 const Index = () => {
   return (

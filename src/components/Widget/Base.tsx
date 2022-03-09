@@ -17,13 +17,13 @@ const WidgetBase: FC<IProps> = ({
 }) => {
   return (
     <div className="justify-between bg-brandblack rounded-3xl">
-      <div className="flex border-b border-borderwidget">
-        <div className="flex flex-col p-5 ">
+      <div className="flex items-center justify-between border-b border-borderwidget">
+        <div className="flex flex-col p-5">
           <div className="flexfont-[19px] font-bold">{title} </div>
           {subtitle && <div className="text-sm text-gray-950">{subtitle} </div>}
         </div>
         {headerRight ?? typeof headerRight === "string" ? (
-          <div className="text-xs text-secondary">{headerRight}</div>
+          <div className="pr-5 text-xs cursor-pointer text-secondary">{headerRight}</div>
         ) : (
           headerRight
         )}
