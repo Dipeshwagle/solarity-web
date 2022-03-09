@@ -38,7 +38,7 @@ const SideBar = () => {
       </Link>
 
       <div>
-        <Link href="/dao/create" passHref>
+        <Link href="/marketplace/create" passHref>
           <a className="w-full gap-2 pl-4 text-lg font-bold pr-14 btn btn-secondary rounded-3xl">
             <PlusCircle />
             Create

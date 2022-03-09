@@ -17,3 +17,8 @@ export { default as CaretLeft } from "./CaretLeft";
 export { default as TickCircle } from "./TickCircle";
 export { default as SOL } from "./SOL";
 export { default as Bid } from "./Bid";
+export { default as TemplateNFT } from "./TemplateNFT";
+export { default as TemplateOS } from "./TemplateOS";
+export { default as TempalateExclusiveContent } from "./TempalateExclusiveContent";
+export { default as TemplateCommunity } from "./TemplateCommunity";
+export { default as Tick } from "./Tick";

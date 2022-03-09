@@ -21,7 +21,9 @@ const Index: FC<Props> = ({ children, rightSidebar, heroContent }) => {
         <Sidebar />
         <div className="grid grid-cols-5 mt-4 sm:col-span-7 lg:col-span-5">
           {heroContent && <div className="col-span-5 mt-4">{heroContent}</div>}
-          <div className="col-span-3 mt-4">{children}</div>
+          <div className={`col-span-${rightSidebar ? "3" : "5"} mt-4`}>
+            {children}
+          </div>
           {rightSidebar && (
             <div className="hidden col-span-2 mt-4 md:block top-10 scrollbar-thin scrollbar-thumb-black scrollbar-track-white">
               {rightSidebar}
