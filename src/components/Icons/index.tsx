@@ -22,3 +22,5 @@ export { default as TemplateOS } from "./TemplateOS";
 export { default as TempalateExclusiveContent } from "./TempalateExclusiveContent";
 export { default as TemplateCommunity } from "./TemplateCommunity";
 export { default as Tick } from "./Tick";
+export { default as UncheckedRaido } from "./UncheckedRadio";
+export { default as CheckedRadio } from "./CheckedRadio";

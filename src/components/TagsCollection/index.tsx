@@ -6,8 +6,13 @@ interface Iprops {
   onChange: (tag: string) => void;
 }
 
-const TagsCollection: FC<Iprops> = ({ tags }) => {
+const TagsCollection: FC<Iprops> = ({ tags, onChange }) => {
   const [activeTagIndex, setActiveTabIndex] = useState(0);
+
+  const handleTagClick = (index: number, tag: string) => {
+    setActiveTabIndex(index);
+    onChange(tag);
+  };
   return (
     <div className="flex flex-wrap gap-2 ">
       {tags.map((tag, index) => (
@@ -18,7 +23,7 @@ const TagsCollection: FC<Iprops> = ({ tags }) => {
           )}
           key={index}
           onClick={() => {
-            setActiveTabIndex(index);
+            handleTagClick(index, tag);
           }}
         >
           {tag}

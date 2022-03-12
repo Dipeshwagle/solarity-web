@@ -1,67 +1,62 @@
 import React from "react";
-import Card from "modules/Marketplace/Create/Card";
+import { Wizard, useWizard } from "react-use-wizard";
 
-import {
-  TemplateNFT,
-  TempalateExclusiveContent,
-  TemplateOS,
-  TemplateCommunity,
-} from "components/Icons";
+import TemplateStep from "modules/Marketplace/Create/Steps/Template";
+import SizeStep from "modules/Marketplace/Create/Steps/Size";
+import AssignStep from "modules/Marketplace/Create/Steps/Assign";
+import EconomicsStep from "modules/Marketplace/Create/Steps/Economics";
 
-const MarketPlaceCreate = () => {
+const Footer = () => {
+  const {
+    nextStep,
+    previousStep,
+    isLoading,
+    activeStep,
+    stepCount,
+    isLastStep,
+    isFirstStep,
+  } = useWizard();
+
+  console.log("Rendering footer");
+
   return (
-    <div className="flex flex-col pb-40 ml-10 -mt-4">
-      <span className="text-[19px] font-bold">Choose Your Templete</span>
-      <div className="flex flex-row gap-10 mt-10">
-        <Card
-          icon={<TemplateNFT />}
-          title="NFT Project"
-          list={[
-            "Minime Token",
-            "Trusted by 2000+ DAOs",
-            "Traditional voted governance",
-            "DAO templates",
-          ]}
-        />
-        <Card
-          icon={<TemplateOS/>}
-          title="Open Source Project"
-          list={[
-            "Minime Token",
-            "Trusted by 2000+ DAOs",
-            "Traditional voted governance",
-            "DAO templates",
-          ]}
-        />
-      </div>
-      <div className="flex flex-row gap-10 mt-10">
-        <Card
-          icon={<TempalateExclusiveContent />}
-          title="Exclusive Content"
-          list={[
-            "Minime Token",
-            "Trusted by 2000+ DAOs",
-            "Traditional voted governance",
-            "DAO templates",
-          ]}
-        />
-        <Card
-          icon={<TemplateCommunity/>}
-          title="Community"
-          list={[
-            "Minime Token",
-            "Trusted by 2000+ DAOs",
-            "Traditional voted governance",
-            "DAO templates",
-          ]}
-        />
-      </div>
+    <div className="flex justify-between w-full mt-10">
+      {!isFirstStep ? (
+        <button
+          className="rounded-full btn btn-secondary"
+          onClick={previousStep}
+        >
+          Back
+        </button>
+      ) : (
+        <div />
+      )}
+      {!isLastStep ? (
+        <button className="rounded-full btn btn-secondary" onClick={nextStep}>
+          Continue
+        </button>
+      ) : (
+        <div />
+      )}
 
-      <div className="flex justify-end w-full mt-10">
-          <button className="rounded-full btn btn-secondary">Continue</button>
-      </div>
+      {isLastStep && (
+        <button className="rounded-full btn btn-secondary" >
+          Finish
+        </button>
+      )}
     </div>
   );
 };
 
-export default MarketPlaceCreate;
+const Create = () => {
+  return (
+    <Wizard footer={<Footer />}>
+      <TemplateStep />
+      <SizeStep />
+      <AssignStep />
+      <EconomicsStep />
+    </Wizard>
+  );
+};
+
+export default Create;
