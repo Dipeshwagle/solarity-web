@@ -11,6 +11,7 @@ interface ActiveLinkProps {
   activeClassName?: string;
   defaultClassName?: string;
   href: string;
+  exact?: boolean;
 }
 
 const ActiveLink: FC<ActiveLinkProps> = ({
@@ -19,11 +20,19 @@ const ActiveLink: FC<ActiveLinkProps> = ({
   activeClassName,
   defaultClassName,
   href,
+  exact,
 }) => {
   const { pathname } = useRouter();
 
-  const activeClass = (href: string) =>
-    pathname === href ? activeClassName ?? "" : defaultClassName ?? "";
+
+
+  const activeClass = (href: string) => { 
+    if (exact) {
+      return pathname === href ? activeClassName ?? "" : defaultClassName ?? "";
+    } else {
+      return pathname.includes(href) ? activeClassName ?? "" : defaultClassName ?? "";
+    }
+  };
 
   return (
     <Link href={href} passHref>

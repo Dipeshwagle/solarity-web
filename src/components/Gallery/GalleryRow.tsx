@@ -1,8 +1,8 @@
 import React, { FC } from "react";
-import GalleryRowHeader from "modules/Marketplace/Gallery/GalleryRowHeader";
-import GalleryItem from "modules/Marketplace/Gallery/GalleryItem";
+import GalleryRowHeader from "components/Gallery/GalleryRowHeader";
+import GalleryItem from "components/Gallery/GalleryItem";
 
-import { GalleryRow } from "modal/marketplace";
+import { GalleryRow } from "modal/Gallery";
 
 const GalleryRow: FC<GalleryRow> = ({ title, items }) => {
   return (

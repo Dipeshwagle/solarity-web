@@ -9,6 +9,7 @@ const MenutItems = [
   {
     title: "Explore",
     link: "/",
+    exact: true,
   },
   {
     title: "Marketplace",
@@ -42,7 +43,7 @@ const Header = () => {
             ETH
             <CaretDown />
           </button>
-          <WalletButton/>
+          <WalletButton />
         </div>
       </div>
     </header>

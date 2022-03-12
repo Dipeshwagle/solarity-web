@@ -1,11 +1,12 @@
 import React from "react";
 import Layout from "components/Layout";
-import MarketPlace from "modules/Marketplace";
+import DAOBase from "modules/DAOS/Base";
+
 import Hero from "components/Hero";
 
 import RightSidebar from "modules/Marketplace/RightSidebar";
 
-import { HERO_DATA } from "data/marketplace";
+import { HERO_DATA } from "data/daos";
 
 const Index = () => {
   return (
@@ -13,7 +14,7 @@ const Index = () => {
       rightSidebar={<RightSidebar />}
       heroContent={<Hero {...HERO_DATA} />}
     >
-      <MarketPlace />
+      <DAOBase>Infra</DAOBase>
     </Layout>
   );
 };

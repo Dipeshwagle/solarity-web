@@ -1,6 +1,6 @@
 import React from "react";
 import TagsCollection from "components/TagsCollection";
-import Gallery from "modules/Marketplace/Gallery";
+import Gallery from "components/Gallery";
 import { CaretDown } from "components/Icons";
 import { Popover } from "@headlessui/react";
 import { TAGS, GALLERY } from "data/marketplace";

@@ -7,7 +7,7 @@ import Footer from "components/Post/Footer";
 import { VR } from "components/Icons";
 
 const index = ({
-  data: { title, subtitle, likes, vr, type, tags },
+  data: { title, subtitle, likes, vr, type, tags, progress },
 }: {
   data: Post;
 }) => {
@@ -46,6 +46,16 @@ const index = ({
               __html: subtitle,
             }}
           />
+        )}
+        {progress && (
+          <div className="flex items-center justify-end w-full gap-6">
+            <span className="text-xs text-gray-950">{progress}% Completed</span>
+            <progress
+              className="w-40 h-1 progress progress-success h"
+              value={progress}
+              max="100"
+            ></progress>
+          </div>
         )}
         {vr && (
           <div className="relative w-full h-[229px] rounded-2xl mt-4">

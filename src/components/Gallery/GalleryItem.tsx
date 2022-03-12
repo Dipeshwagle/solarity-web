@@ -2,7 +2,7 @@ import React from "react";
 import { FC } from "react";
 import Image from "next/image";
 import { TickCircle, Bid } from "components/Icons";
-import { GalleryItem } from "modal/marketplace";
+import { GalleryItem } from "modal/Gallery";
 
 const GalleryItem: FC<GalleryItem> = ({
   title,
@@ -21,6 +21,7 @@ const GalleryItem: FC<GalleryItem> = ({
             height={133}
             layout="fill"
             width={175}
+            className="rounded-3xl"
           />
           <button className="z-10 gap-1 normal-case bg-white rounded-full opacity-0 btn btn-sm btn-accent group-hover:opacity-100 hover:bg-accent text-secondary">
             <Bid /> Place a Bid

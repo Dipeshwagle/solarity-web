@@ -1,9 +1,11 @@
 
 export type PostType = 'featured' | 'announcement' | 'normal'
 
+export type TagType = 'secondary' | 'error' | 'info' | 'warning'
+
 export type Tag = {
   title: string
-  type: 'secondary' | 'error' | 'info' | 'warning'
+  type: TagType
 }
 export type  Post = {
   title: string;
@@ -11,6 +13,7 @@ export type  Post = {
   tags?: Tag[];
   likes: number;
   type: PostType;
+  progress?:number;
   vr?: {
     imageUrl: string;
     featured: boolean;
