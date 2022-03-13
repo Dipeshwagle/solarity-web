@@ -31,7 +31,7 @@ const GalleryItem: FC<GalleryItem> = ({
         <span className="px-2 text-xs">{title}</span>
         {decentraland && (
           <div className="flex items-center gap-2 px-2">
-            <span className="text-[10px] ">Decentraland</span>
+            <span className="text-[10px] text-secondary ">Decentraland</span>
             <div className="mb-1">
               <TickCircle />
             </div>

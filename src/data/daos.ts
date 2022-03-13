@@ -1,6 +1,6 @@
 import { HeroProps } from "components/Hero";
 import { TagsLinkCollectionProps } from "components/TagsCollection/Link";
-import { Gallery } from "modal/Gallery";
+import { Gallery, GalleryLand } from "modal/Gallery";
 import { Post } from "modal/post";
 import { MembersListProps } from "components/MembersList";
 
@@ -289,7 +289,7 @@ export const Members: MembersListProps[] = [
         post: "Website Creator",
         imageUrl: "/images/placeholder/daos/memebrs/four.png",
         points: "+ 145",
-        votes:'100',
+        votes: "100",
         voteColor: "warning",
       },
       {
@@ -297,41 +297,72 @@ export const Members: MembersListProps[] = [
         post: "UI UX designer",
         imageUrl: "/images/placeholder/daos/memebrs/five.png",
         points: "+ 652",
-        votes:'70',
-        voteColor:"info"
+        votes: "70",
+        voteColor: "info",
       },
       {
         name: "DODO Minions",
         post: "Marketing Head",
         imageUrl: "/images/placeholder/daos/memebrs/six.png",
         points: "+ 652",
-        votes:'50',
-        voteColor:"general"
+        votes: "50",
+        voteColor: "general",
       },
       {
         name: "DODO Minions",
         post: "Website Creator",
         imageUrl: "/images/placeholder/daos/memebrs/four.png",
         points: "+ 145",
-        votes:'45',
-        voteColor:"general"
+        votes: "45",
+        voteColor: "general",
       },
       {
         name: "DODO Minions",
         post: "UI UX designer",
         imageUrl: "/images/placeholder/daos/memebrs/five.png",
         points: "+ 652",
-        votes:'40',
-        voteColor:"general"
+        votes: "40",
+        voteColor: "general",
       },
       {
         name: "DODO Minions",
         post: "Marketing Head",
         imageUrl: "/images/placeholder/daos/memebrs/six.png",
         points: "+ 652",
-        votes:'30',
-        voteColor:"general"
+        votes: "30",
+        voteColor: "general",
       },
     ],
   },
 ];
+
+export const WORLD_GALLERY: GalleryLand = {
+  rows: [
+    {
+      title: "Highlighted Lands:",
+      items: [
+        {
+          title: "Poker w/ the boys",
+          date: "19:30 CET, 21 MAR",
+          likes: 239,
+          invites: 420,
+          imageUrl:'/images/placeholder/daos/world/one.png'
+        },
+        {
+          title: "Poker w/ the boys",
+          date: "19:30 CET, 21 MAR",
+          likes: 239,
+          invites: 420,
+          imageUrl:'/images/placeholder/daos/world/two.png'
+        },
+        {
+          title: "Poker w/ the boys",
+          date: "19:30 CET, 21 MAR",
+          likes: 239,
+          invites: 420,
+          imageUrl:'/images/placeholder/daos/world/three.png'
+        },
+      ],
+    },
+  ],
+};
