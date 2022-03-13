@@ -1,16 +1,15 @@
 import React from "react";
 import Base from "modules/DAOS/Base";
-import Home from "modules/Home";
-import Posts from "modules/Home/Posts";
 
-import { POSTS } from "data/mock";
+import Gallery from "components/Gallery";
+import { GALLERY } from "data/daos";
 
-const MarketPlace = () => {
+const Marketplace = () => {
   return (
     <Base>
-        <Posts posts={POSTS} />
+      <Gallery rows={GALLERY.rows} />
     </Base>
   );
 };
 
-export default MarketPlace;
+export default Marketplace;

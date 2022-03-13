@@ -1,15 +1,15 @@
-import React from 'react';
-import Base from 'modules/DAOS/Base'
+import React from "react";
+import Base from "modules/DAOS/Base";
+import Posts from "modules/Home/Posts";
 
-import Gallery from 'components/Gallery';
-import { GALLERY } from 'data/daos';
+import { POSTS } from "data/mock";
 
 const Home = () => {
-    return (
-        <Base>
-             <Gallery rows={GALLERY.rows} />
-        </Base>
-    );
+  return (
+    <Base>
+        <Posts posts={POSTS} />
+    </Base>
+  );
 };
 
 export default Home;
