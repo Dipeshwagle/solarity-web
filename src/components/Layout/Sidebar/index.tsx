@@ -10,7 +10,7 @@ const SideBar = () => {
     <div className="flex sticky top-10 mt-3  flex-col items-start justify-start max-h-[90vh] gap-6 pb-10 overflow-y-auto scrollbar-thin scrollbar-thumb-black scrollbar-track-white">
       <div>
         <Link href="/dao/popular" passHref>
-          <a className="gap-2 pl-4 text-lg font-bold pr-14 btn rounded-3xl">
+          <a className="flex items-center gap-2 mx-4 text-lg font-bold">
             <Home />
             Home
           </a>

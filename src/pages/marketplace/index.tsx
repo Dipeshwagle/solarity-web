@@ -1,19 +1,13 @@
 import React from "react";
 import Layout from "components/Layout";
-import MarketPlace from "modules/Marketplace";
-import Hero from "components/Hero";
+import Home from "modules/Home";
 
-import RightSidebar from "modules/Marketplace/RightSidebar";
-
-import { HERO_DATA } from "data/marketplace";
+import RightSidebar from "modules/Home/RightSidebar";
 
 const Index = () => {
   return (
-    <Layout
-      rightSidebar={<RightSidebar />}
-      heroContent={<Hero {...HERO_DATA} />}
-    >
-      <MarketPlace />
+    <Layout rightSidebar={<RightSidebar/>}>
+      <Home />
     </Layout>
   );
 };
