@@ -5,6 +5,7 @@ import { Post } from "modal/post";
 import { MembersListProps } from "components/MembersList";
 import { TokenBalancesProps } from "components/TokenBalances";
 import { TransferTableProps } from "components/Tables/Transfer";
+import { ContractProps } from "components/Contracts";
 
 export const HERO_DATA: HeroProps = {
   imageUrl: "/images/placeholder/post/post_one.png",
@@ -465,3 +466,28 @@ export const TRANSFER_TABLE_PROPS: TransferTableProps = {
     },
   ],
 };
+
+export const INFRA_CONTRACTS: ContractProps[] = [
+  {
+    avatartImage: "/images/placeholder/daos/infra/avatart.png",
+    title: "Build a new website",
+    subtitle:
+      "Looking for an experienced designer to make ONE eye catching thumbnail for YouTube! Will provide design brief and assets upon application. Looking to build a long term relationship with a designer as I will be making a lot more videos in the future!",
+    likes: 19,
+    price: "Fixed-Price",
+    experience: "Expert",
+    budget: "250 SOL",
+    deadline: "08-13-23",
+  },
+  {
+    avatartImage: "/images/placeholder/daos/infra/avatart.png",
+    title: "Build a new website",
+    subtitle:
+      "Looking for an experienced designer to make ONE eye catching thumbnail for YouTube! Will provide design brief and assets upon application. Looking to build a long term relationship with a designer as I will be making a lot more videos in the future!",
+    likes: 19,
+    price: "Fixed-Price",
+    experience: "Expert",
+    budget: "250 SOL",
+    deadline: "08-13-23",
+  },
+];
