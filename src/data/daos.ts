@@ -4,6 +4,7 @@ import { Gallery, GalleryLand } from "modal/Gallery";
 import { Post } from "modal/post";
 import { MembersListProps } from "components/MembersList";
 import { TokenBalancesProps } from "components/TokenBalances";
+import { TransferTableProps } from "components/Tables/Transfer";
 
 export const HERO_DATA: HeroProps = {
   imageUrl: "/images/placeholder/post/post_one.png",
@@ -428,6 +429,39 @@ export const TOKEN_BALANCES: TokenBalancesProps = {
       imageUrl: "/images/icons/tokens/sol.png",
       volume: "1052.96",
       amount: "$351420.22",
+    },
+  ],
+};
+
+export const TRANSFER_TABLE_PROPS: TransferTableProps = {
+  rows: [
+    {
+      date: "04/02/20",
+      source: "Luise ( Association ...)",
+      reference: "Exchange : KYC Deposit for Kyber fees",
+      amount: "+10585.73003 KNC",
+      type: "plus",
+    },
+    {
+      date: "04/02/20",
+      source: "0xffd0456704...10.....",
+      reference: "ANT buyback:Keyrock inventory (ETH)",
+      amount: "-670 ETH",
+      type: "minus",
+    },
+    {
+      date: "04/02/20",
+      source: "Luise ( Association ...)",
+      reference: "Exchange : KYC Deposit for Kyber fees",
+      amount: "+10585.73003 KNC",
+      type: "plus",
+    },
+    {
+      date: "04/02/20",
+      source: "0xffd0456704...10.....",
+      reference: "ANT buyback:Keyrock inventory (ETH)",
+      amount: "-670 ETH",
+      type: "minus",
     },
   ],
 };
