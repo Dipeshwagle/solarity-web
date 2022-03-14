@@ -3,6 +3,7 @@ import { TagsLinkCollectionProps } from "components/TagsCollection/Link";
 import { Gallery, GalleryLand } from "modal/Gallery";
 import { Post } from "modal/post";
 import { MembersListProps } from "components/MembersList";
+import { TokenBalancesProps } from "components/TokenBalances";
 
 export const HERO_DATA: HeroProps = {
   imageUrl: "/images/placeholder/post/post_one.png",
@@ -346,23 +347,87 @@ export const WORLD_GALLERY: GalleryLand = {
           date: "19:30 CET, 21 MAR",
           likes: 239,
           invites: 420,
-          imageUrl:'/images/placeholder/daos/world/one.png'
+          imageUrl: "/images/placeholder/daos/world/one.png",
         },
         {
           title: "Poker w/ the boys",
           date: "19:30 CET, 21 MAR",
           likes: 239,
           invites: 420,
-          imageUrl:'/images/placeholder/daos/world/two.png'
+          imageUrl: "/images/placeholder/daos/world/two.png",
         },
         {
           title: "Poker w/ the boys",
           date: "19:30 CET, 21 MAR",
           likes: 239,
           invites: 420,
-          imageUrl:'/images/placeholder/daos/world/three.png'
+          imageUrl: "/images/placeholder/daos/world/three.png",
         },
       ],
+    },
+  ],
+};
+
+export const TOKEN_BALANCES: TokenBalancesProps = {
+  title: "Token Balances",
+  tokens: [
+    {
+      title: "ETH",
+      imageUrl: "/images/icons/tokens/eth.png",
+      volume: "2983.96",
+      amount: "$637053.22",
+    },
+    {
+      title: "ANJ",
+      imageUrl: "/images/icons/tokens/anj.png",
+      volume: "400000.1",
+    },
+    {
+      title: "ANT",
+      imageUrl: "/images/icons/tokens/ant.png",
+      volume: "555000.96",
+      amount: "$484716.16",
+    },
+    {
+      title: "DAI",
+      imageUrl: "/images/icons/tokens/ant.png",
+      volume: "768870.8",
+      amount: "$771184.35",
+    },
+    {
+      title: "SOL",
+      imageUrl: "/images/icons/tokens/sol.png",
+      volume: "1052.96",
+      amount: "$351420.22",
+    },
+    {
+      title: "ETH",
+      imageUrl: "/images/icons/tokens/eth.png",
+      volume: "2983.96",
+      amount: "$637053.22",
+    },
+    {
+      title: "ANJ",
+      imageUrl: "/images/icons/tokens/anj.png",
+      volume: "400000.1",
+    },
+    {
+      title: "ANT",
+      imageUrl: "/images/icons/tokens/ant.png",
+      volume: "555000.96",
+      amount: "$484716.16",
+    },
+    {
+      title: "DAI",
+      imageUrl: "/images/icons/tokens/ant.png",
+      volume: "768870.8",
+      amount: "$771184.35",
+    },
+    {
+      title: "SOL",
+      imageUrl: "/images/icons/tokens/sol.png",
+      volume: "1052.96",
+      amount: "$351420.22",
     },
   ],
 };
