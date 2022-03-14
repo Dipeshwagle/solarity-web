@@ -3,7 +3,7 @@ import Layout from "components/Layout";
 import Home from "modules/Home";
 
 
-import RightSidebar from "modules/Marketplace/RightSidebar";
+import RightSidebar from "modules/Home/RightSidebar";
 
 
 const Index = () => {
