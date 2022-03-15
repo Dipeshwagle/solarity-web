@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Home = () => {
   return (
-    <div className="flex flex-col gap-4 p-8 bg-brandblack">
+    <div className="flex flex-col gap-4 p-8 bg-brandblack rounded-3xl">
       <span className="text-[19px] font-bold">Roles:</span>
       <div className="flex flex-col gap-4 ">
         <div className="flex items-center gap-4">
