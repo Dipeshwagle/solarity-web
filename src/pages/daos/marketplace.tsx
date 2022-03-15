@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "components/Layout";
-import MarketPlace from "modules/DAOS/MarketPlace";
+import MarketPlace from "modules/DAOS/Marketplacee";
 import Hero from "components/Hero";
 
 import RightSidebar from "modules/DAOS/Sidebar/MarketPlace";
