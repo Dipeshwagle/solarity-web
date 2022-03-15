@@ -46,7 +46,7 @@ export const TAGS: TagsLinkCollectionProps = {
     },
     {
       label: "Marketplace",
-      link: "/daos/marketplace",
+      link: "/daos/market",
     },
   ],
 };

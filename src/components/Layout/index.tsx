@@ -12,7 +12,7 @@ interface Props {
 const Index: FC<Props> = ({ children, rightSidebar, heroContent }) => {
   return (
     <div className="max-h-screen overflow-x-hidden">
-      <div className="fixed top-0 z-20 w-full bg-base-100">
+      <div className="fixed top-0 w-full bg-base-100">
         <Header />
         <div className="flex h-[1px] bg-darkcharcoal" />
       </div>
