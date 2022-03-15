@@ -63,7 +63,7 @@ const CreateContract: FC<IProps> = ({ open, onClose }) => {
                 </div>
                 <div className="w-full form-control">
                   <textarea
-                    placeholder="Contract title"
+                    placeholder="Description"
                     className="resize-none textarea textarea-primary h-[135px] boder border-base-100 bg-brandblack"
                   />
                 </div>
