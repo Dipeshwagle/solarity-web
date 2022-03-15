@@ -24,3 +24,5 @@ export { default as TemplateCommunity } from "./TemplateCommunity";
 export { default as Tick } from "./Tick";
 export { default as UncheckedRaido } from "./UncheckedRadio";
 export { default as CheckedRadio } from "./CheckedRadio";
+export { default as Twitter } from "./Twitter";
+export { default as Discord } from "./Discord";
