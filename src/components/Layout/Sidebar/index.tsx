@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Home, Sparkle, Auction, PlusCircle, Hot } from "components/Icons";
+import { Home, Sparkle, Auction, PlusCircle, Hot,DaoConnect } from "components/Icons";
 import DisclosureButton from "components/DisclosureButton";
 import ProfileButton from "components/ProfileButton";
 import { MY_DAOS } from "data/mock";
@@ -34,6 +34,12 @@ const SideBar = () => {
         <a className="flex items-center gap-2 mx-4 text-lg font-bold">
           <Auction />
           Auction
+        </a>
+      </Link>
+      <Link href="/dao/connect" passHref>
+        <a className="flex items-center gap-2 mx-4 mr-2 text-lg font-bold">
+          <DaoConnect  className="mr-2"/>
+          DAO connect
         </a>
       </Link>
 
