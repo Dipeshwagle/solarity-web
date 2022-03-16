@@ -3,7 +3,7 @@ import Stories from "components/Stories";
 import TagsCollection from "components/TagsCollection";
 import Posts from 'modules/Home/Posts'
 
-import {POSTS, TAGS} from 'data/mock'
+import {POSTS, TAGS} from 'data/home'
 
 const HomeModule = () => {
   const handleTagChange = (tag: string) => {

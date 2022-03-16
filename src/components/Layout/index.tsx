@@ -21,7 +21,7 @@ const Index: FC<Props> = ({ children, rightSidebar, heroContent }) => {
         <Sidebar />
         <div className="grid grid-cols-5 gap-1 mt-4 sm:col-span-7 lg:col-span-5">
           {heroContent && <div className="col-span-5 mt-4">{heroContent}</div>}
-          <div className={`${rightSidebar ? "col-span-3" : "col-span-5"} mt-4`}>
+          <div className={`${rightSidebar ? "col-span-3" : "col-span-5"} mt-4`} id="container">
             {children}
           </div>
           {rightSidebar && (

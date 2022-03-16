@@ -3,11 +3,11 @@ import Link from "next/link";
 import { Home, Sparkle, Auction, PlusCircle, Hot,DaoConnect } from "components/Icons";
 import DisclosureButton from "components/DisclosureButton";
 import ProfileButton from "components/ProfileButton";
-import { MY_DAOS } from "data/mock";
+import { MY_DAOS } from "data/home";
 
 const SideBar = () => {
   return (
-    <div className="flex sticky top-10 mt-3  flex-col items-start justify-start max-h-[90vh] gap-6 pb-10 overflow-y-auto scrollbar-thin scrollbar-thumb-black scrollbar-track-white">
+    <div className="flex sticky top-24 mt-3  flex-col items-start justify-start max-h-[90vh] gap-6 pb-10 overflow-y-auto scrollbar-thin scrollbar-thumb-black scrollbar-track-white">
       <div>
         <Link href="/dao/popular" passHref>
           <a className="flex items-center gap-2 mx-4 text-lg font-bold">
