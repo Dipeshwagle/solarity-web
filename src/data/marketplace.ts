@@ -21,21 +21,21 @@ export const GALLERY: Gallery = {
       items: [
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection: "Solana Money Boys",
           imageUrl: "/images/placeholder/marketplace/gallery/one.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection: "Solana Money Boys",
           imageUrl: "/images/placeholder/marketplace/gallery/two.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection: "Solana Money Boys",
           imageUrl: "/images/placeholder/marketplace/gallery/three.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
@@ -47,21 +47,21 @@ export const GALLERY: Gallery = {
       items: [
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection: "Solana Money Boys",
           imageUrl: "/images/placeholder/marketplace/gallery/four.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection: "Solana Money Boys",
           imageUrl: "/images/placeholder/marketplace/gallery/five.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection: "Solana Money Boys",
           imageUrl: "/images/placeholder/marketplace/gallery/six.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
@@ -73,21 +73,21 @@ export const GALLERY: Gallery = {
       items: [
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection: "Solana Money Boys",
           imageUrl: "/images/placeholder/marketplace/gallery/seven.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection: "Solana Money Boys",
           imageUrl: "/images/placeholder/marketplace/gallery/eight.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection: "Solana Money Boys",
           imageUrl: "/images/placeholder/marketplace/gallery/nine.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
@@ -99,21 +99,21 @@ export const GALLERY: Gallery = {
       items: [
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection: "Solana Money Boys",
           imageUrl: "/images/placeholder/marketplace/gallery/ten.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection: "Solana Money Boys",
           imageUrl: "/images/placeholder/marketplace/gallery/eleven.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection: "Solana Money Boys",
           imageUrl: "/images/placeholder/marketplace/gallery/twelve.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",

@@ -10,6 +10,9 @@ module.exports = {
       serif: ['"SF Pro Display"', "serif"],
     },
     extend: {
+      fontSize:{
+        ['brand-lg']:'19px'
+      },
       colors: {
         brandblack: "#1F2125",
         transparentwhite: "rgba(255, 255, 255, 0.4)",

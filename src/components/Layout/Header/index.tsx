@@ -25,7 +25,7 @@ const MenutItems = [
   },
   {
     title: "Launchpad",
-    link: "/explore",
+    link: "/launchpad",
   },
 ];
 

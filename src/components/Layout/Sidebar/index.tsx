@@ -36,7 +36,7 @@ const SideBar = () => {
           Auction
         </a>
       </Link>
-      <Link href="/dao/connect" passHref>
+      <Link href="/dao-connect" passHref>
         <a className="flex items-center gap-2 mx-4 mr-2 text-lg font-bold">
           <DaoConnect  className="mr-2"/>
           DAO connect

@@ -186,21 +186,21 @@ export const GALLERY: Gallery = {
       items: [
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection:"Mansions",
           imageUrl: "/images/placeholder/marketplace/gallery/one.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection:"Mansions",
           imageUrl: "/images/placeholder/marketplace/gallery/two.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection:"Mansions",
           imageUrl: "/images/placeholder/marketplace/gallery/three.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
@@ -212,21 +212,21 @@ export const GALLERY: Gallery = {
       items: [
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection:"Mansions",
           imageUrl: "/images/placeholder/daos/gallery/avatar_one.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection:"Mansions",
           imageUrl: "/images/placeholder/daos/gallery/avatar_two.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection:"Mansions",
           imageUrl: "/images/placeholder/daos/gallery/avatar_three.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
@@ -238,21 +238,21 @@ export const GALLERY: Gallery = {
       items: [
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection:"Mansions",
           imageUrl: "/images/placeholder/marketplace/gallery/seven.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection:"Mansions",
           imageUrl: "/images/placeholder/marketplace/gallery/eight.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          decentraland: true,
+          collection:"Mansions",
           imageUrl: "/images/placeholder/marketplace/gallery/nine.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
