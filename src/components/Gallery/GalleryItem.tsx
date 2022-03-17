@@ -16,14 +16,15 @@ const GalleryItem: FC<GalleryItem> = ({
 }) => {
   return (
     <div className="flex flex-col group ">
-      <div className="flex flex-col justify-center gap-2 p-2 transition-all ease-in rounded-t-lg rounded-b-lg group-hover:rounded-b-none bg-brandblack">
-        <div className="relative h-[200px] w-full flex justify-center items-center">
+      <div className="flex flex-col justify-center gap-2 p-2 transition-all ease-in rounded-t-3xl rounded-b-3xl group-hover:rounded-b-none bg-brandblack">
+        <div className="relative h-[133px] w-full flex justify-center items-center ">
           <Image
             src={imageUrl}
             alt="nft item"
+            height={133}
             layout="fill"
-            objectFit="cover"
-            className="rounded-md"
+            width={175}
+            className="rounded-3xl"
           />
           <button className="z-10 gap-1 normal-case bg-white rounded-full opacity-0 btn btn-sm btn-accent group-hover:opacity-100 hover:bg-accent text-secondary">
             {type === "connect" ? (
@@ -82,7 +83,7 @@ const GalleryItem: FC<GalleryItem> = ({
           </div>
         </div>
       </div>
-      <div className="flex justify-between p-2 transition-all ease-in border rounded-b-lg group-hover:border group-hover:border-brandblack border-base-100 ">
+      <div className="flex justify-between p-2 transition-all ease-in border rounded-b-3xl group-hover:border group-hover:border-brandblack border-base-100 ">
         {type === "bid" && (
           <>
             <div className="flex flex-col">

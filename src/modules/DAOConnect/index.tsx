@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SwitchButton from "components/SwitchButton";
-import Gallery from "components/GalleryJob";
+import Gallery from "components/Gallery";
 
 import { CONNECT_GALLERY, JOB_GALLERY } from "data/dao-connect";
 
