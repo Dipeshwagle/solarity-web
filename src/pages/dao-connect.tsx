@@ -4,8 +4,7 @@ import DAOConnect from "modules/DAOConnect";
 
 const Index = () => {
   return (
-    <Layout
-    >
+    <Layout>
       <DAOConnect />
     </Layout>
   );

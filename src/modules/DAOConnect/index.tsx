@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import SwitchButton from "components/SwitchButton";
 import Gallery from "components/Gallery";
 
-import { CONNECT_GALLERY,JOB_GALLERY } from "data/dao-connect";
+import { CONNECT_GALLERY, JOB_GALLERY } from "data/dao-connect";
 
 const DAOConnect = () => {
   const [selectedScreen, setSelectedScreen] = useState("Connect");
@@ -15,8 +15,9 @@ const DAOConnect = () => {
           options={["Connect", "Jobs"]}
         />
         <span className="text-sm text-gray-950">
-          Want to find brave founders to persue your journey with? you are in
-          the right place!
+          {selectedScreen === "Connect"
+            ? `Want to find new members for your DAO?`
+            : `Want to find brave founders to persue your journey with? you are in the right place!`}
         </span>
         <div className="relative w-full max-w-md form-control">
           <svg
@@ -78,9 +79,7 @@ const DAOConnect = () => {
 
       <div>
         <Gallery
-          {...(selectedScreen === "Connect"
-            ? CONNECT_GALLERY
-            : JOB_GALLERY)}
+          {...(selectedScreen === "Connect" ? CONNECT_GALLERY : JOB_GALLERY)}
         />
       </div>
     </div>
