@@ -1,16 +1,13 @@
 import React from "react";
 import Layout from "components/Layout";
 import MarketPlace from "modules/DAOS/Marketplacee";
-import Hero from "components/Hero";
-
+import Hero from "modules/DAOS/Hero";
 import RightSidebar from "modules/DAOS/Sidebar/MarketPlace";
-
-import { HERO_DATA } from "data/daos";
 
 const Index = () => {
   return (
     <Layout
-      heroContent={<Hero {...HERO_DATA} />}
+      heroContent={<Hero />}
       rightSidebar={<RightSidebar />}
     >
       <MarketPlace />

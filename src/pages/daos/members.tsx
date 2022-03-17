@@ -1,13 +1,12 @@
 import React from "react";
 import Layout from "components/Layout";
 import Members from "modules/DAOS/Members";
-import Hero from "components/Hero";
-
-import { HERO_DATA } from "data/daos";
+import Hero from "modules/DAOS/Hero";
+import RightSidebar from "modules/DAOS/Sidebar/Voting";
 
 const Index = () => {
   return (
-    <Layout heroContent={<Hero {...HERO_DATA} />} rightSidebar={<div/>}>
+    <Layout heroContent={<Hero />} rightSidebar={<RightSidebar />}>
       <Members />
     </Layout>
   );

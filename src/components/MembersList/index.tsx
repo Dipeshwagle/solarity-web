@@ -11,7 +11,7 @@ export interface MembersListProps {
 
 const Memebers: FC<MembersListProps> = ({ title, members, vote }) => {
   return (
-    <div className="flex flex-col gap-8 p-8 bg-brandblack">
+    <div className="flex flex-col gap-8 p-8 bg-brandblack rounded-3xl">
       <span className="text-lg font-bold">{title}</span>
       <div className={classNames("flex", vote ? "flex-col gap-4" : "gap-16")}>
         {members.map((member, index) =>
