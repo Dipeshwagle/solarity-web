@@ -6,7 +6,7 @@ const Review = () => {
   const [form, setForm] = useAtom(createFormAtom);
 
   return (
-    <div className="flex flex-col gap-6 p-10 border border-brandblack rounded-3xl">
+    <div className="flex flex-col max-w-lg gap-6 p-10 border border-brandblack rounded-3xl">
       <span className="font-bold text-brand-lg">Create a new Squad</span>
       <span className="flex gap-4 text-brand-lg">
         Final Review
