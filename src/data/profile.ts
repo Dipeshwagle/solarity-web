@@ -34,6 +34,10 @@ export const PROFILE_POSTS: Post[] = [
     subtitle: `Do you like what I just created?</br>You can now add it your room, just but ut here!`,
     likes: 19,
     type: "featured",
+    user:{
+      avatar:'/images/placeholder/avatars/one.png',
+      name:'Lura 🌥'
+    },
     vr: {
       featured: true,
       imageUrl: "/images/placeholder/post/post_one.png",
@@ -45,6 +49,10 @@ export const PROFILE_POSTS: Post[] = [
     subtitle: `4,444 Money Boys Building the metaverse. For the best insights and NFT analytic tools visit our platform`,
     likes: 19,
     type: "announcement",
+    user:{
+      avatar:'/images/placeholder/avatars/one.png',
+      name:'Lura 🌥'
+    },
     tags: [
       {
         title: "Core",
@@ -62,6 +70,10 @@ export const PROFILE_POSTS: Post[] = [
     Quickly restore accurate metrics through corporate customer service. Energistically synthesize enterprise outsourcing rather than competitive infrastructures. Appropriately target timely e-business through covalent alignments. `,
     likes: 19,
     type: "normal",
+    user:{
+      avatar:'/images/placeholder/avatars/one.png',
+      name:'Lura 🌥'
+    },
     tags: [
       {
         title: "London",
@@ -79,6 +91,10 @@ export const PROFILE_POSTS: Post[] = [
     Quickly restore accurate metrics through corporate customer service. Energistically synthesize enterprise outsourcing rather than competitive infrastructures. Appropriately target timely e-business through covalent alignments. `,
     likes: 19,
     type: "normal",
+    user:{
+      avatar:'/images/placeholder/avatars/one.png',
+      name:'Lura 🌥'
+    },
     tags: [
       {
         title: "London",

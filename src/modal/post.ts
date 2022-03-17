@@ -9,6 +9,7 @@ export type Tag = {
 }
 export type  Post = {
   title: string;
+  
   subtitle?: string;
   tags?: Tag[];
   likes: number;
@@ -19,4 +20,8 @@ export type  Post = {
     featured: boolean;
     price?: number;
   };
+  user:{
+    avatar:string;
+    name:string;
+  }
 };

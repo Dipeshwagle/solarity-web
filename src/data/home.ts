@@ -5,6 +5,10 @@ export const POSTS: Post[] = [
     title: "Financial Proposal: DAOstar One",
     subtitle: `Do you like what I just created?</br>You can now add it your room, just but ut here!`,
     likes: 19,
+    user:{
+      avatar:'/images/placeholder/avatars/one.png',
+      name:'GRP 🔆'
+    },
     type: "featured",
     vr: {
       featured: true,
@@ -17,6 +21,10 @@ export const POSTS: Post[] = [
     subtitle: `4,444 Money Boys Building the metaverse. For the best insights and NFT analytic tools visit our platform`,
     likes: 19,
     type: "announcement",
+    user:{
+      avatar:'/images/placeholder/avatars/two.png',
+      name:'GRP ' 
+    },
     tags: [
       {
         title: "Core",
@@ -34,6 +42,10 @@ export const POSTS: Post[] = [
     Quickly restore accurate metrics through corporate customer service. Energistically synthesize enterprise outsourcing rather than competitive infrastructures. Appropriately target timely e-business through covalent alignments. `,
     likes: 19,
     type: "normal",
+    user:{
+      avatar:'/images/placeholder/avatars/one.png',
+      name:'Stacey 🦅'
+    },
     tags: [
       {
         title: "London",
@@ -51,6 +63,10 @@ export const POSTS: Post[] = [
     Quickly restore accurate metrics through corporate customer service. Energistically synthesize enterprise outsourcing rather than competitive infrastructures. Appropriately target timely e-business through covalent alignments. `,
     likes: 19,
     type: "normal",
+    user:{
+      avatar:'/images/placeholder/avatars/one.png',
+      name:'Lura 🐶'
+    },
     tags: [
       {
         title: "London",

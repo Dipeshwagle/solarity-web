@@ -28,7 +28,7 @@ const Contract: FC<ContractProps> = ({
       <div className="flex gap-8 bg-[#1F2125] px-10 py-5 border-l border-darkcharcoal border-r ">
         <div className="flex">
           <div className="relative w-10 h-10 mt-1">
-            <Image src={avatartImage}  layout="fill" />
+            <Image src={avatartImage} alt={title}  layout="fill" />
           </div>
         </div>
         <div className="flex flex-col ">
