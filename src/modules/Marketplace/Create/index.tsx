@@ -1,10 +1,13 @@
 import React from "react";
 import { Wizard, useWizard } from "react-use-wizard";
 
+import SquadStep from "modules/Marketplace/Create/Steps/Sqad";
+import Voting from "modules/Marketplace/Create/Steps/Voting";
 import TemplateStep from "modules/Marketplace/Create/Steps/Template";
 import SizeStep from "modules/Marketplace/Create/Steps/Size";
 import AssignStep from "modules/Marketplace/Create/Steps/Assign";
 import EconomicsStep from "modules/Marketplace/Create/Steps/Economics";
+import Review from "modules/Marketplace/Create/Steps/Review";
 
 const Footer = () => {
   const {
@@ -40,9 +43,7 @@ const Footer = () => {
       )}
 
       {isLastStep && (
-        <button className="rounded-full btn btn-secondary" >
-          Finish
-        </button>
+        <button className="rounded-full btn btn-secondary">Finish</button>
       )}
     </div>
   );
@@ -51,10 +52,13 @@ const Footer = () => {
 const Create = () => {
   return (
     <Wizard footer={<Footer />}>
+      <SquadStep />
       <TemplateStep />
       <SizeStep />
       <AssignStep />
       <EconomicsStep />
+      <Voting />
+      <Review />
     </Wizard>
   );
 };

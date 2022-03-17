@@ -38,7 +38,8 @@
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
     "react-use-wizard": "^2.1.2",
-    "tailwind-override": "^0.6.1"
+    "tailwind-override": "^0.6.1",
+    "use-file-picker": "^1.4.2"
   },
   "devDependencies": {
     "@types/react": "17.0.34",

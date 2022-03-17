@@ -11,6 +11,7 @@ module.exports = {
     },
     extend: {
       fontSize:{
+        ['brand-md']:'15px',
         ['brand-lg']:'19px'
       },
       colors: {
