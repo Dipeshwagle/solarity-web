@@ -3,6 +3,10 @@ import type { AppProps } from "next/app";
 import dynamic from "next/dynamic";
 import { ConnectionProvider } from "@solana/wallet-adapter-react";
 
+// For redux
+import { Provider } from "react-redux";
+import store from "../redux/store";
+
 import "tailwindcss/tailwind.css";
 import "../styles/globals.css";
 import "../styles/App.css";
@@ -21,11 +25,13 @@ const WalletProvider = dynamic(
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ConnectionProvider endpoint={endpoint}>
-      <WalletProvider>
-        <Component {...pageProps} />
-      </WalletProvider>
-    </ConnectionProvider>
+    <Provider store={store}>
+      <ConnectionProvider endpoint={endpoint}>
+        <WalletProvider>
+          <Component {...pageProps} />
+        </WalletProvider>
+      </ConnectionProvider>
+    </Provider>
   );
 }
 

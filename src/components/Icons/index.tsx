@@ -27,3 +27,4 @@ export { default as CheckedRadio } from "./CheckedRadio";
 export { default as Twitter } from "./Twitter";
 export { default as Discord } from "./Discord";
 export { default as DaoConnect } from './DaoConnect'
+export { default as Login } from './Login'

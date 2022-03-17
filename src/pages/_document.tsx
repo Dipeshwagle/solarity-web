@@ -13,7 +13,7 @@ class MyDocument extends Document {
             sizes="180x180"
             href="/apple-touch-icon.png"
           />
-          <link
+          {/* <link
             rel="icon"
             type="image/png"
             sizes="32x32"
@@ -24,8 +24,8 @@ class MyDocument extends Document {
             type="image/png"
             sizes="16x16"
             href="/favicon-16x16.png"
-          />
-          <link rel="manifest" href="/site.webmanifest" />
+          /> */}
+          {/* <link rel="manifest" href="/site.webmanifest" /> */}
           <link
             href="http://fonts.cdnfonts.com/css/sf-pro-display"
             rel="stylesheet"
