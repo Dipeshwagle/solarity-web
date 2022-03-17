@@ -13,7 +13,7 @@ const Assign = () => {
   >(null);
 
   return (
-    <div className="flex flex-col -mt-4">
+    <div className="flex flex-col max-w-3xl -mt-4">
       <span className="font-bold text-[19px]">Assign Pentagons</span>
       <span className="text-xs text-gray-950">
         In a goldberg Polyhedron there are 12 pentagons, those will be the
@@ -25,7 +25,7 @@ const Assign = () => {
         <div
           className={classnames(
             selectedPentagons == "for-profit" ? "bg-brandblack" : "",
-            "flex flex-col items-center gap-10 p-10 transition-all ease-in border cursor-pointer select-none border-brandblack rounded-3xl hover:bg-brandblack"
+            "flex flex-col items-center gap-4 p-8 transition-all ease-in border cursor-pointer select-none border-brandblack rounded-3xl hover:bg-brandblack"
           )}
           onClick={() => {
             setSelectedPentagons("for-profit");
@@ -42,10 +42,10 @@ const Assign = () => {
               DAO (Organization for profit)
             </span>
           </div>
-          <Image src={DAOUniverseImage} alt="dao universe" placeholder="blur" />
-          <span className="font-bold text-[19px]">DAO of DAOs/DAVs</span>
+          <Image src={DAOUniverseImage} alt="dao universe" placeholder="blur" height={200} width={200} />
+          <span className="text-lg font-bold">DAO of DAOs/DAVs</span>
           <div className="flex flex-col gap-7">
-            <div className="flex items-center gap-7">
+            <div className="flex items-center gap-4">
               <svg
                 width="39"
                 height="36"
@@ -60,9 +60,9 @@ const Assign = () => {
                 />
               </svg>
 
-              <span className="text-xl font-bold">= DAO Departments</span>
+              <span className="text-lg font-bold">= DAO Departments</span>
             </div>
-            <div className="flex items-center gap-7">
+            <div className="flex items-center gap-4">
               <svg
                 width="35"
                 height="39"
@@ -85,7 +85,7 @@ const Assign = () => {
         <div
           className={classnames(
             selectedPentagons == "non-profit" ? "bg-brandblack" : "",
-            " flex flex-col items-center gap-10 p-10 transition-all ease-in border cursor-pointer select-none border-brandblack rounded-3xl hover:bg-brandblack"
+            " flex flex-col items-center gap-4 p-10 transition-all ease-in border cursor-pointer select-none border-brandblack rounded-3xl hover:bg-brandblack"
           )}
           onClick={() => {
             setSelectedPentagons("non-profit");
@@ -101,10 +101,10 @@ const Assign = () => {
               DAU (Union non profit)
             </span>
           </div>
-          <Image src={DAOUniverseBlue} alt="dao universe" placeholder="blur" />
-          <span className="font-bold text-[19px]">DAO of DAOs/DAVs</span>
+          <Image src={DAOUniverseBlue} alt="dao universe" placeholder="blur"  height={200} width={200}/>
+          <span className="text-lg font-bold">DAO of DAOs/DAVs</span>
           <div className="flex flex-col gap-7">
-            <div className="flex items-center gap-7">
+            <div className="flex items-center gap-4">
               <svg
                 width="39"
                 height="36"

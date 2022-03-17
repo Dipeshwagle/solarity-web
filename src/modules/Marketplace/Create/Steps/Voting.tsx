@@ -6,7 +6,7 @@ const Voting = () => {
   const [form, setForm] = useAtom(createFormAtom);
 
   return (
-    <div className="flex flex-col gap-4 p-10 border border-brandblack rounded-3xl">
+    <div className="flex flex-col gap-4 p-5 border border-brandblack rounded-3xl">
       <span className="font-bold text-brand-lg">Create a new Squad</span>
 
       <span className="flex gap-4 text-brand-lg">
@@ -35,10 +35,10 @@ const Voting = () => {
       <div className="relative w-full max-w-md form-control ">
         <input
           type="text"
-          className="rounded-full input input-primary"
+          className="rounded-full input input-primary input-sm"
           value={form.support}
         />
-        <span className="absolute right-5 top-4 text-brand-md text-gray-950">
+        <span className="absolute right-5 top-1 text-brand-md text-gray-950">
           %
         </span>
       </div>
@@ -62,12 +62,12 @@ const Voting = () => {
         for it to be valid.
       </span>
       <div className="relative w-full max-w-md form-control ">
-        <input
+      <input
           type="text"
-          className="rounded-full input input-primary"
+          className="rounded-full input input-primary input-sm"
           value={form.quorum}
         />
-        <span className="absolute right-5 top-4 text-brand-md text-gray-950">
+        <span className="absolute right-5 top-1 text-brand-md text-gray-950">
           %
         </span>
       </div>

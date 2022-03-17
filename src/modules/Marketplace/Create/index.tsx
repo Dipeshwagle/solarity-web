@@ -24,9 +24,18 @@ const Footer = () => {
 
   console.log({activeStep})
 
-  const moveUp = [3]
   return (
-    <div className={`absolute mb-10 flex justify-end w-full ${moveUp.includes(activeStep) ?'bottom-[200px] right-10':"bottom-[-100px]"}`}>
+    <div className={`mt-10 flex justify-between w-full`}>
+        {!isFirstStep ? (
+        <button
+          className="rounded-full btn btn-secondary"
+          onClick={previousStep}
+        >
+          Back
+        </button>
+      ) : (
+        <div />
+      )}
       {!isLastStep ? (
         <button className="rounded-full btn btn-secondary" onClick={nextStep}>
           Continue
@@ -44,8 +53,8 @@ const Footer = () => {
 
 const Create = () => {
   return (
-    <div className="relative mb-10 ">
-      <Wizard header={<Footer />}>
+    <div className="relative ">
+      <Wizard footer={<Footer />}>
         <SquadStep />
         <TemplateStep />
         <SizeStep />
