@@ -9,7 +9,7 @@ const GalleryRow: FC<GalleryRowLaunchPad> = ({ title, popular,description, items
   return (
     <div className="flex flex-col">
       <GalleryRowHeader title={title} popular={popular} description={description} />
-      <div className="grid grid-cols-3 gap-3 mt-4">
+      <div className="grid grid-cols-4 gap-3 mt-4">
         {items.map((item, index) =>
           item.featured ? (
             <GalleryItemPopular key={index} {...item} />

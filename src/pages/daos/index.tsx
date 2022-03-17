@@ -4,10 +4,9 @@ import Home from "modules/DAOS/Home";
 import RightSidebar from "modules/DAOS/Sidebar/Home";
 import Hero from "modules/DAOS/Hero";
 
-
 const Index = () => {
   return (
-    <Layout rightSidebar={<RightSidebar />} heroContent={<Hero  />}>
+    <Layout rightSidebar={<RightSidebar />} heroContent={<Hero />}>
       <Home />
     </Layout>
   );

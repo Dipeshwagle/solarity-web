@@ -15,6 +15,7 @@ const GalleryItem: FC<GalleryItemLaunchPad> = ({
   creator,
   funded,
 }) => {
+  console.log({ creator });
   const splittedDate = date.split("-");
   return (
     <div className="flex flex-col gap-8">
@@ -30,8 +31,8 @@ const GalleryItem: FC<GalleryItemLaunchPad> = ({
           </div>
         </div>
         <div className="flex flex-col justify-between gap-2 px-3 py-4">
-          <span className="text-sm font-bold uppercase">{type}</span>
-          <span className="text-2xl font-bold truncate text-secondary">
+          <span className="text-xs font-bold uppercase">{type}</span>
+          <span className="text-lg font-bold truncate text-secondary">
             {title}
           </span>
           <span className="text-xs text-gray-950">{description}</span>
@@ -45,27 +46,28 @@ const GalleryItem: FC<GalleryItemLaunchPad> = ({
           <div className="flex justify-between">
             <div className="flex flex-col">
               <span className="text-sm font-bold uppercase">Fund Raised</span>
-              <span className="text-2xl text-secondary">{fund.raised}</span>
+              <span className="text-xl text-secondary">{fund.raised}</span>
             </div>
             <div className="flex flex-col">
               <span className="text-sm font-bold uppercase">Fund Goal</span>
-              <span className="text-2xl text-secondary">{fund.goal}</span>
+              <span className="text-xl text-secondary">{fund.goal}</span>
             </div>
           </div>
           <div className="flex justify-between gap-4 flex-start">
             <div className="flex gap-2">
-              <div>
-                {creator && (
+              <div className="flex flex-col ">
+                {creator?.imageUrl && (
+                  <div>
+
                   <Image
                     src={creator.imageUrl}
                     alt="nft item"
-                    height={48}
-                    width={48}
+                    height={32}
+                    width={32}
                     className="rounded-3xl"
                   />
+                  </div>
                 )}
-              </div>
-              <div className="flex flex-col ">
                 <span className="text-sm font-bold uppercase">
                   {creator?.name}
                 </span>
@@ -90,7 +92,7 @@ const GalleryItem: FC<GalleryItemLaunchPad> = ({
           <button
             className={classNames(
               "mt-2 btn relative",
-              funded ? "bg-base-100": "btn-secondary"
+              funded ? "bg-base-100" : "btn-secondary"
             )}
           >
             {funded ? "Funded" : "Fund"}
