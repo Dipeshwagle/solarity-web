@@ -24,7 +24,7 @@ const Footer = () => {
 
   console.log({activeStep})
 
-  const moveUp = [1,3]
+  const moveUp = [3]
   return (
     <div className={`absolute mb-10 flex justify-end w-full ${moveUp.includes(activeStep) ?'bottom-[200px] right-10':"bottom-[-100px]"}`}>
       {!isLastStep ? (

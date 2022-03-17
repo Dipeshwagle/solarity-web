@@ -16,7 +16,7 @@ const MarketPlaceCreate = () => {
   return (
     <div className="flex flex-col pb-12 ml-10 -mt-4">
       <span className="text-[19px] font-bold">Choose Your Templete</span>
-      <div className="flex flex-row gap-10 mt-10">
+      <div className="grid grid-cols-4 gap-4 mt-6">
         <Card
           icon={<TemplateNFT />}
           title="NFT Project"
@@ -41,8 +41,6 @@ const MarketPlaceCreate = () => {
             "DAO templates",
           ]}
         />
-      </div>
-      <div className="flex flex-row gap-10 mt-10">
         <Card
           icon={<TempalateExclusiveContent />}
           title="Exclusive Content"
