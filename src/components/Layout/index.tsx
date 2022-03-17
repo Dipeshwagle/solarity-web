@@ -7,13 +7,14 @@ interface Props {
   children: React.ReactNode;
   rightSidebar?: React.ReactNode;
   heroContent?: React.ReactNode;
+  sol?: boolean;
 }
 
 const Index: FC<Props> = ({ children, rightSidebar, heroContent }) => {
   return (
     <div className="max-h-screen overflow-x-hidden">
       <div className="fixed top-0 z-10 w-full bg-base-100">
-        <Header />
+        <Header sol />
         <div className="flex h-[1px] bg-darkcharcoal" />
       </div>
 

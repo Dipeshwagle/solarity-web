@@ -11,7 +11,7 @@ const GalleryRowHeader = ({
   return (
     <div
       className={`flex justify-between pb-2 ${
-        detail && "border-b border-darkcharcoal"
+        !detail && "border-b border-darkcharcoal"
       }`}
     >
       <div className="flex flex-col">

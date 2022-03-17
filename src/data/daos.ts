@@ -6,6 +6,7 @@ import { MembersListProps } from "components/MembersList";
 import { TokenBalancesProps } from "components/TokenBalances";
 import { TransferTableProps } from "components/Tables/Transfer";
 import { ContractProps } from "components/Contracts";
+import { DaoCardProps } from "components/Cards/Dao";
 
 export const HERO_DATA: HeroProps = {
   imageUrl: "/images/placeholder/post/post_one.png",
@@ -24,9 +25,9 @@ export const INFRA_POSTS: Post[] = [
     subtitle: `Do you like what I just created?</br>You can now add it your room, just but ut here!`,
     likes: 19,
     type: "featured",
-    user:{
-      avatar:'/images/placeholder/avatars/two.png',
-      name:'GRP 🔆'
+    user: {
+      avatar: "/images/placeholder/avatars/two.png",
+      name: "GRP 🔆",
     },
     vr: {
       featured: true,
@@ -39,9 +40,9 @@ export const INFRA_POSTS: Post[] = [
     subtitle: `4,444 Money Boys Building the metaverse. For the best insights and NFT analytic tools visit our platform`,
     likes: 19,
     type: "announcement",
-    user:{
-      avatar:'/images/placeholder/avatars/one.png',
-      name:'GRP 🔆'
+    user: {
+      avatar: "/images/placeholder/avatars/one.png",
+      name: "GRP 🔆",
     },
     tags: [
       {
@@ -60,9 +61,9 @@ export const INFRA_POSTS: Post[] = [
     Quickly restore accurate metrics through corporate customer service. Energistically synthesize enterprise outsourcing rather than competitive infrastructures. Appropriately target timely e-business through covalent alignments. `,
     likes: 19,
     type: "normal",
-    user:{
-      avatar:'/images/placeholder/avatars/two.png',
-      name:'MOney 🔆'
+    user: {
+      avatar: "/images/placeholder/avatars/two.png",
+      name: "MOney 🔆",
     },
     tags: [
       {
@@ -81,9 +82,9 @@ export const INFRA_POSTS: Post[] = [
     Quickly restore accurate metrics through corporate customer service. Energistically synthesize enterprise outsourcing rather than competitive infrastructures. Appropriately target timely e-business through covalent alignments. `,
     likes: 19,
     type: "normal",
-    user:{
-      avatar:'/images/placeholder/avatars/one.png',
-      name:'GRP 🔆'
+    user: {
+      avatar: "/images/placeholder/avatars/one.png",
+      name: "GRP 🔆",
     },
     tags: [
       {
@@ -103,9 +104,9 @@ export const HOME_POSTS: Post[] = [
     title: "Financial Proposal: DAOstar One",
     subtitle: `Do you like what I just created?</br>You can now add it your room, just but ut here!`,
     likes: 19,
-    user:{
-      avatar:'/images/placeholder/avatars/two.png',
-      name:'Amari 🔆'
+    user: {
+      avatar: "/images/placeholder/avatars/two.png",
+      name: "Amari 🔆",
     },
     type: "featured",
     vr: {
@@ -119,9 +120,9 @@ export const HOME_POSTS: Post[] = [
     subtitle: `4,444 Money Boys Building the metaverse. For the best insights and NFT analytic tools visit our platform`,
     likes: 19,
     type: "announcement",
-    user:{
-      avatar:'/images/placeholder/avatars/one.png',
-      name:'Leonora 🔆'
+    user: {
+      avatar: "/images/placeholder/avatars/one.png",
+      name: "Leonora 🔆",
     },
     tags: [
       {
@@ -140,9 +141,9 @@ export const HOME_POSTS: Post[] = [
     Quickly restore accurate metrics through corporate customer service. Energistically synthesize enterprise outsourcing rather than competitive infrastructures. Appropriately target timely e-business through covalent alignments. `,
     likes: 19,
     type: "normal",
-    user:{
-      avatar:'/images/placeholder/avatars/one.png',
-      name:'GRP 🔆'
+    user: {
+      avatar: "/images/placeholder/avatars/one.png",
+      name: "GRP 🔆",
     },
     tags: [
       {
@@ -161,9 +162,9 @@ export const HOME_POSTS: Post[] = [
     Quickly restore accurate metrics through corporate customer service. Energistically synthesize enterprise outsourcing rather than competitive infrastructures. Appropriately target timely e-business through covalent alignments. `,
     likes: 19,
     type: "normal",
-    user:{
-      avatar:'/images/placeholder/avatars/one.png',
-      name:'GRP 🔆'
+    user: {
+      avatar: "/images/placeholder/avatars/one.png",
+      name: "GRP 🔆",
     },
     tags: [
       {
@@ -218,21 +219,21 @@ export const GALLERY: Gallery = {
       items: [
         {
           title: "7 X 7 Size #1231",
-          collection:"Mansions",
+          collection: "Mansions",
           imageUrl: "/images/placeholder/marketplace/gallery/one.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          collection:"Mansions",
+          collection: "Mansions",
           imageUrl: "/images/placeholder/marketplace/gallery/two.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          collection:"Mansions",
+          collection: "Mansions",
           imageUrl: "/images/placeholder/marketplace/gallery/three.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
@@ -244,21 +245,21 @@ export const GALLERY: Gallery = {
       items: [
         {
           title: "7 X 7 Size #1231",
-          collection:"Mansions",
+          collection: "Mansions",
           imageUrl: "/images/placeholder/daos/gallery/avatar_one.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          collection:"Mansions",
+          collection: "Mansions",
           imageUrl: "/images/placeholder/daos/gallery/avatar_two.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          collection:"Mansions",
+          collection: "Mansions",
           imageUrl: "/images/placeholder/daos/gallery/avatar_three.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
@@ -270,21 +271,21 @@ export const GALLERY: Gallery = {
       items: [
         {
           title: "7 X 7 Size #1231",
-          collection:"Mansions",
+          collection: "Mansions",
           imageUrl: "/images/placeholder/marketplace/gallery/seven.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          collection:"Mansions",
+          collection: "Mansions",
           imageUrl: "/images/placeholder/marketplace/gallery/eight.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "7 X 7 Size #1231",
-          collection:"Mansions",
+          collection: "Mansions",
           imageUrl: "/images/placeholder/marketplace/gallery/nine.png",
           currentBid: 10,
           endingIn: "12h  43m  27s",
@@ -301,9 +302,9 @@ export const POSTS: Post[] = [
     likes: 19,
     type: "announcement",
     progress: 85,
-    user:{
-      avatar:'/images/placeholder/avatars/one.png',
-      name:'GRP 🔆'
+    user: {
+      avatar: "/images/placeholder/avatars/one.png",
+      name: "GRP 🔆",
     },
     tags: [
       {
@@ -322,9 +323,9 @@ export const POSTS: Post[] = [
     likes: 19,
     type: "announcement",
     progress: 85,
-     user:{
-      avatar:'/images/placeholder/avatars/one.png',
-      name:'GRP 🔆'
+    user: {
+      avatar: "/images/placeholder/avatars/one.png",
+      name: "GRP 🔆",
     },
     tags: [
       {
@@ -343,9 +344,9 @@ export const POSTS: Post[] = [
     likes: 19,
     type: "announcement",
     progress: 85,
-    user:{
-      avatar:'/images/placeholder/avatars/one.png',
-      name:'GRP 🔆'
+    user: {
+      avatar: "/images/placeholder/avatars/one.png",
+      name: "GRP 🔆",
     },
     tags: [
       {
@@ -363,9 +364,9 @@ export const POSTS: Post[] = [
     subtitle: `4,444 Money Boys Building the metaverse. For the best insights and NFT analytic tools visit our platform`,
     likes: 19,
     type: "announcement",
-    user:{
-      avatar:'/images/placeholder/avatars/one.png',
-      name:'Maci 🔆'
+    user: {
+      avatar: "/images/placeholder/avatars/one.png",
+      name: "Maci 🔆",
     },
     progress: 85,
     tags: [
@@ -385,9 +386,9 @@ export const POSTS: Post[] = [
     likes: 19,
     type: "announcement",
     progress: 85,
-    user:{
-      avatar:'/images/placeholder/avatars/one.png',
-      name:'GRP 🔆'
+    user: {
+      avatar: "/images/placeholder/avatars/one.png",
+      name: "GRP 🔆",
     },
     tags: [
       {
@@ -406,9 +407,9 @@ export const POSTS: Post[] = [
     likes: 19,
     type: "announcement",
     progress: 85,
-    user:{
-      avatar:'/images/placeholder/avatars/one.png',
-      name:'GRP 🔆'
+    user: {
+      avatar: "/images/placeholder/avatars/one.png",
+      name: "GRP 🔆",
     },
     tags: [
       {
@@ -674,4 +675,111 @@ export const INFRA_CONTRACTS: ContractProps[] = [
     budget: "250 SOL",
     deadline: "08-13-23",
   },
+];
+
+export const YOUR_DAO: DaoCardProps[] = [
+  {
+    title: "Synthetify",
+    imageURL: "/images/placeholder/daos/yours/one.png",
+  },
+  {
+    title: "Ukraine SOL",
+    imageURL: "/images/placeholder/daos/yours/two.png",
+  },
+  {
+    title: "Mango DAO",
+    imageURL:'/images/placeholder/daos/yours/three.png'
+  },
+  {
+    title: "SOCEAN",
+    imageURL:'/images/placeholder/daos/yours/four.png'
+  },
+  {
+    title: "Governance",
+    imageURL:'/images/placeholder/daos/yours/five.png'
+  }
+];
+
+
+export const DISCOVER: DaoCardProps[] = [
+  {
+    title: "Yield Farming",
+    imageURL: "/images/placeholder/daos/yours/discover/1.png",
+  },
+  {
+    title: "SCTF1",
+    imageURL: "/images/placeholder/daos/yours/discover/2.png",
+  },
+  {
+    title: "SERUM",
+    imageURL:'/images/placeholder/daos/yours/discover/3.png'
+  },
+  {
+    title: "Off My Head",
+    imageURL:'/images/placeholder/daos/yours/discover/4.png'
+  },
+  {
+    title: "Soltato",
+    imageURL:'/images/placeholder/daos/yours/discover/5.png'
+  },
+  {
+    title: "Metaplex Foundation",
+    imageURL: "/images/placeholder/daos/yours/discover/6.png",
+  },
+  {
+    title: "21DAO",
+    imageURL: "/images/placeholder/daos/yours/discover/7.png",
+  },
+  {
+    title: "Cardinal",
+    imageURL:'/images/placeholder/daos/yours/discover/8.png'
+  },
+  {
+    title: "21DAO",
+    imageURL:'/images/placeholder/daos/yours/discover/9.png'
+  },
+  {
+    title: "OVERNANCE DAO",
+    imageURL:'/images/placeholder/daos/yours/discover/10.png'
+  },
+  {
+    title: "Friends and Family DAO",
+    imageURL: "/images/placeholder/daos/yours/discover/11.png",
+  },
+  {
+    title: "The Sanctuary",
+    imageURL: "/images/placeholder/daos/yours/discover/12.png",
+  },
+  {
+    title: "Phantasia",
+    imageURL:'/images/placeholder/daos/yours/discover/13.png'
+  },
+  {
+    title: "Strangemood Foundation",
+    imageURL:'/images/placeholder/daos/yours/discover/14.png'
+  },
+  {
+    title: "GRAPE",
+    imageURL:'/images/placeholder/daos/yours/discover/15.png'
+  },
+  {
+    title: "MonkeDAO",
+    imageURL: "/images/placeholder/daos/yours/discover/16.png",
+  },
+  {
+    title: "MonkOG DAO",
+    imageURL: "/images/placeholder/daos/yours/discover/17.png",
+  },
+  {
+    title: "NoGoalDAO",
+    imageURL:'/images/placeholder/daos/yours/discover/18.png'
+  },
+  {
+    title: "Marinade.Finance",
+    imageURL:'/images/placeholder/daos/yours/discover/19.png'
+  },
+  {
+    title: "Chicken Tribe",
+    imageURL:'/images/placeholder/daos/yours/discover/20.png'
+  }
 ];
