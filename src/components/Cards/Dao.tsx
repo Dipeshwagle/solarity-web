@@ -12,6 +12,7 @@ const Dao: FC<DaoCardProps> = ({ title, imageURL, pageURL }) => {
       <Link href={pageURL} passHref>
         <a>
           <Image src={imageURL} width={77} height={77} alt={title} />
+          <span className="text-lg font-bold text-center">{title}</span>
         </a>
       </Link>
       <span className="text-lg font-bold text-center">{title}</span>

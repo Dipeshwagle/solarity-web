@@ -134,6 +134,10 @@ export const TAGS: TagsLinkCollectionProps = {
       label: "Infra",
       link: "/daos/moneyboys/infra",
     },
+    {
+      label: "Marketplace",
+      link: "/daos/moneyboys/market",
+    },
 
   ],
 };
