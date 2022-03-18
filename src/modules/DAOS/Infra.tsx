@@ -3,7 +3,6 @@ import Base from "modules/DAOS/Base";
 import Contract from "components/Contracts";
 import Posts from "modules/Home/Posts";
 
-import { POSTS } from "data/mock";
 import { INFRA_CONTRACTS } from "data/daos";
 
 const Home = () => {
@@ -15,12 +14,10 @@ const Home = () => {
           {INFRA_CONTRACTS.map((contract, index) => (
             <Contract key={index} {...contract} />
           ))}
-         
-         <div className="flex justify-center py-4 text-xs cursor-pointer text-secondary">
-         +  See more
-         </div>
-        <Posts posts={POSTS} />
 
+          <div className="flex justify-center py-4 text-xs cursor-pointer text-secondary">
+            + See more
+          </div>
         </div>
       </div>
     </Base>

@@ -7,13 +7,14 @@ interface Props {
   children: React.ReactNode;
   rightSidebar?: React.ReactNode;
   heroContent?: React.ReactNode;
+  sol?: boolean;
 }
 
 const Index: FC<Props> = ({ children, rightSidebar, heroContent }) => {
   return (
     <div className="max-h-screen overflow-x-hidden">
       <div className="fixed top-0 z-10 w-full bg-base-100">
-        <Header />
+        <Header sol />
         <div className="flex h-[1px] bg-darkcharcoal" />
       </div>
 
@@ -21,7 +22,7 @@ const Index: FC<Props> = ({ children, rightSidebar, heroContent }) => {
         <Sidebar />
         <div className="grid grid-cols-5 gap-1 mt-4 sm:col-span-7 lg:col-span-5">
           {heroContent && <div className="col-span-5 mt-4">{heroContent}</div>}
-          <div className={`${rightSidebar ? "col-span-3" : "col-span-5"} mt-4`}>
+          <div className={`${rightSidebar ? "col-span-3" : "col-span-5"} mt-4`} id="container">
             {children}
           </div>
           {rightSidebar && (

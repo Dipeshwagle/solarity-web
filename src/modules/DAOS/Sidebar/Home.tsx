@@ -15,7 +15,7 @@ const Home = () => {
             <span className="text-right">4444</span>
             <span className="font-semibold">Token: </span>
             <span className="text-sm text-right">
-              $MBC with a pic of a token
+              $MBC
             </span>
             <span className="font-semibold ">Staking rewards:</span>
             <span className="text-right">130% APY</span>

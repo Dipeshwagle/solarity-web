@@ -1,5 +1,6 @@
 import React, { FC, useState } from "react";
 import Image from "next/image";
+import { toast } from 'react-toastify';
 import Base from "components/Modals/Base";
 import BlackInput from "components/Inputs/BlackInput";
 import AvatarPanel from "components/AvatarPanel";
@@ -20,7 +21,11 @@ const JoinRoomModal: FC<any> = ({
   const [name, setName] = useState('');
 
   const joinGame = () => {
-    location.href="http://localhost:3000/rooms/" + name;
+    if(name == "") {
+      toast.error("All inputs are required!");
+      return;
+    }
+    location.href="https://cool-server-app.herokuapp.com/rooms/" + name;
   }
 
   return (

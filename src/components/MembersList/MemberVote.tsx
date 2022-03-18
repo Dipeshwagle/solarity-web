@@ -23,7 +23,7 @@ const Member: FC<MemberProps> = ({
     <div className="grid items-center w-full grid-cols-9">
       <div className="rounded-2xl">
         <Image
-          src={`https://i.pravatar.cc/48?id=${imageUrl}`}
+          src={imageUrl}
           height={48}
           width={48}
           className="border border-white rounded-[48px]"

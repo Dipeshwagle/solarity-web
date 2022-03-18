@@ -1,11 +1,11 @@
 import React from "react";
-import { POSTS, TAGS } from "data/mock";
+import { PROFILE_POSTS } from "data/profile";
 
 import Posts from "modules/Home/Posts";
 const Home = () => {
   return (
     <div>
-      <Posts posts={POSTS} />
+      <Posts posts={PROFILE_POSTS} />
     </div>
   );
 };

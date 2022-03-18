@@ -12,14 +12,14 @@ const GalleryItem: FC<GalleryItemLand> = ({
   invites,
 }) => {
   return (
-    <div className="flex flex-col group rounded-t-3xl rounded-b-3xl bg-brandblack">
+    <div className="flex flex-col group rounded-t-xl rounded-b-xl bg-brandblack">
       <div className="flex flex-col justify-center gap-2 p-2 transition-all ease-in ">
-        <div className="relative h-[153px] w-full flex justify-center items-center rounded-3xl ">
+        <div className="relative h-[200px] w-full flex justify-center items-center rounded-xl ">
           <Image
             src={imageUrl}
             alt="nft item"
             layout="fill"
-            className="rounded-3xl"
+            className="rounded-xl"
           />
         </div>
       </div>

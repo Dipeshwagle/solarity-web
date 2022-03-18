@@ -23,7 +23,7 @@ const Voting = () => {
           <div className="flex justify-between px-4 py-3">
             <div className="flex items-center">
               <Image
-                src={`https://i.pravatar.cc/48?id=1`}
+                src={`/images/placeholder/your-dao/moneyboys.png`}
                 height={48}
                 width={48}
                 className="border border-white rounded-[48px]"
@@ -31,27 +31,27 @@ const Voting = () => {
               />
               <div className="flex flex-col ml-4">
                 <div className="font-bold text-[15px]">
-                  Welcome to the Aragon forum
+                  Welcome to the Money Boys
                 </div>
               </div>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <span className="text-sm font-bold">19</span>
-              <span className="text-xs text-gray-950">9 Dec ‘19</span>{" "}
+              <span className="text-sm font-bold">+449</span>
+              <span className="text-xs text-gray-950">21 Dec ‘21</span>{" "}
             </div>
           </div>
           <div className="flex justify-between px-4 py-3">
             <div className="flex items-center">
               <Image
-                src={`https://i.pravatar.cc/48?id=2`}
+                src={`/images/placeholder/avatars/boh.png`}
                 height={48}
                 width={48}
                 className="border border-white rounded-[48px]"
                 alt="avatar"
               />
               <div className="flex flex-col ml-4">
-                <span className="text-xs text-gray-950">32 Solana Money Boys on</span>{" "}
-                <div className="font-bold text-[15px]">Magic Eden</div>
+                <span className="text-xs text-gray-950">Alpha Polls:</span>{" "}
+                <div className="font-bold text-[15px]">New Week, New Minting</div>
               </div>
             </div>
             <div className="flex flex-col items-center justify-center mr-4">
@@ -62,7 +62,7 @@ const Voting = () => {
           <div className="flex justify-between px-4 py-3">
             <div className="flex items-center">
               <Image
-                src={`https://i.pravatar.cc/48?id=3`}
+                src={`/images/placeholder/avatars/solboys.png`}
                 height={48}
                 width={48}
                 className="border border-white rounded-[48px]"
@@ -70,7 +70,7 @@ const Voting = () => {
               />
               <div className="flex flex-col ml-4">
                 <span className="text-xs text-gray-950">Proposals for Executive Sub-DAO</span>{" "}
-                <div className="font-bold text-[15px]">Request for Funding: The Umbrella Proposal ☂️</div>
+                <div className="font-bold text-[15px]">Merge: Collab w/ SolGods</div>
               </div>
             </div>
             <div className="flex flex-col items-center justify-center mr-4">
@@ -81,7 +81,7 @@ const Voting = () => {
           <div className="flex justify-between px-4 py-3">
             <div className="flex items-center">
               <Image
-                src={`https://i.pravatar.cc/48?id=4`}
+                src={`/images/placeholder/avatars/boh.png`}
                 height={48}
                 width={48}
                 className="border border-white rounded-[48px]"
@@ -89,7 +89,26 @@ const Voting = () => {
               />
               <div className="flex flex-col ml-4">
                 <span className="text-xs text-gray-950">Proposals for Executive Sub-DAO</span>{" "}
-                <div className="font-bold text-[15px]">Request for Funding: AN DAO Gitbook 1.0</div>
+                <div className="font-bold text-[15px]">Funding: Art Union Proposal</div>
+              </div>
+            </div>
+            <div className="flex flex-col items-center justify-center mr-4">
+              <span className="text-sm font-bold">27</span>
+              <span className="text-xs text-gray-950">6d</span>{" "}
+            </div>
+          </div>
+          <div className="flex justify-between px-4 py-3">
+            <div className="flex items-center">
+              <Image
+                src={`/images/placeholder/avatars/metro.png`}
+                height={48}
+                width={48}
+                className="border border-white rounded-[48px]"
+                alt="avatar"
+              />
+              <div className="flex flex-col ml-4">
+                <span className="text-xs text-gray-950">If Young Metro don't trust you</span>{" "}
+                <div className="font-bold text-[15px]">I'm going to shoot u</div>
               </div>
             </div>
             <div className="flex flex-col items-center justify-center mr-4">

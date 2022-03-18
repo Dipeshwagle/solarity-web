@@ -11,8 +11,7 @@ const Size = () => {
 
       <div className="flex flex-col max-w-md">
         <span className="font-bold text-[19px]">
-          Choose the size of your DAOverse and who are the members of your
-          DAOvverse
+        Choose the size of your Verse.
         </span>
         <span className="mt-8 ">Size</span>
         <div className="mt-2">
@@ -22,7 +21,7 @@ const Size = () => {
           />
         </div>
         <div className="flex items-center mt-10">
-          <span>Members</span>
+          <span>N. of Members</span>
           <input
             type="number"
             placeholder="Size"

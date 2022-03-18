@@ -15,12 +15,12 @@ const Card: FC<IProps> = ({ icon, title, list, onClick, selected }) => {
     <div
       className={classnames(
         selected && "bg-brandblack",
-        "flex flex-col gap-4 p-10 pr-16 transition-all ease-in border cursor-pointer select-none border-brandblack rounded-3xl hover:bg-brandblack"
+        "flex flex-col items-center gap-6 p-4 transition-all ease-in border cursor-pointer select-none border-brandblack rounded-3xl hover:bg-brandblack"
       )}
       onClick={onClick}
     >
       <div>{icon} </div>
-      <span className="font-bold text-[21px]">{title}</span>
+      <span className="font-bold text-[19px]">{title}</span>
       <div className="flex flex-col gap-4">
         {list.map((item, index) => (
           <div

@@ -70,10 +70,10 @@ const CreateProposal: FC<IProps> = ({
               <ListSelect
                 options={[
                   {
-                    label: "WETH",
+                    label: "SOL",
                   },
                   {
-                    label: "ANJ",
+                    label: "VERSE",
                   },
                 ]}
               />
