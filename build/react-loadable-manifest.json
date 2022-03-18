@@ -1,0 +1,14 @@
+{
+  "..\\contexts\\ClientWalletProvider.tsx -> @solana/wallet-adapter-react-ui/styles.css": {
+    "id": "..\\contexts\\ClientWalletProvider.tsx -> @solana/wallet-adapter-react-ui/styles.css",
+    "files": [
+      "static/chunks/node_modules_solana_wallet-adapter-react-ui_styles_css.js"
+    ]
+  },
+  "_app.tsx -> ../contexts/ClientWalletProvider": {
+    "id": "_app.tsx -> ../contexts/ClientWalletProvider",
+    "files": [
+      "static/chunks/src_contexts_ClientWalletProvider_tsx.js"
+    ]
+  }
+}
