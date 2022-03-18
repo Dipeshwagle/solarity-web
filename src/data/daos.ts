@@ -183,31 +183,31 @@ export const TAGS: TagsLinkCollectionProps = {
   tags: [
     {
       label: "Home",
-      link: "/daos",
+      link: "/daos/moneyboys",
     },
     {
       label: "Voting",
-      link: "/daos/voting",
+      link: "/daos/moneyboys/voting",
     },
     {
       label: "Members",
-      link: "/daos/members",
+      link: "/daos/moneyboys/members",
     },
     {
       label: "World",
-      link: "/daos/world",
+      link: "/daos/moneyboys/world",
     },
     {
       label: "Vault",
-      link: "/daos/vault",
+      link: "/daos/moneyboys/vault",
     },
     {
       label: "Infra",
-      link: "/daos/infra",
+      link: "/daos/moneyboys/infra",
     },
     {
       label: "Marketplace",
-      link: "/daos/market",
+      link: "/daos/moneyboys/market",
     },
   ],
 };
