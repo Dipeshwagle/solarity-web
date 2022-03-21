@@ -19,7 +19,7 @@ export default function AframeComp3 () {
           <a-asset-item id="tio" src="/alien/scene.gltf" ></a-asset-item>
         </a-assets>
         <a-entity rotation="0 0 0">
-            <a-gltf-model src="#tio" scale="2 2 2" position="0 1.6 -0.7 "  scale="1.2 1.2 1.2" rotation="0 0 0"
+            <a-gltf-model src="#tio" scale="2 2 2" position="0 1.6 -0.7 " rotation="0 0 0"
             animation__rot="property:rotation;
             dur:5000;
             to:0 360 0;

@@ -19,7 +19,7 @@ export default function AframeComp9 () {
           <a-asset-item id="eqeq" src="/vr(1).glb" ></a-asset-item>
         </a-assets>
         <a-entity rotation="0 0 0">
-            <a-gltf-model src="#eqeq" scale="2 2 2" position="0 1.3 -1 "  scale="3 3 3" rotation="0 0 0"
+            <a-gltf-model src="#eqeq" scale="2 2 2" position="0 1.3 -1 " rotation="0 0 0"
             animation__rot="property:rotation;
             dur:5000;
             to:0 360 0;

@@ -40,7 +40,7 @@ const index = ({
           <span className="text-xs text-gray-950">{description}</span>
           <div className="flex items-center gap-2">
             {!!avatars && avatars.map((avatar, index) =>(
-              <div className="h-[16px] w-[16px]">
+              <div className="h-[16px] w-[16px]" key={index}>
                 <Image
                   src="/images/icons/sol.png"
                   alt="sol-icon"

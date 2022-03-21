@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 
-export default function  () {
+export default function AframeComp7 () {
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {

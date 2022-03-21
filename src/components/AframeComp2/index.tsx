@@ -23,7 +23,7 @@ export default function AframeComp2 () {
 
         <a-entity camera />
         <a-entity rotation="0 -105 0">
-            <a-gltf-model src="#U" scale="1 1 1" position="0 0 0"  scale="1 1 1" rotation="0 0 0">
+            <a-gltf-model src="#U" position="0 0 0"  scale="1 1 1" rotation="0 0 0">
             </a-gltf-model>
         </a-entity>
         <a-sky src="https://ak.picdn.net/shutterstock/videos/17170723/thumb/1.jpg"></a-sky>
