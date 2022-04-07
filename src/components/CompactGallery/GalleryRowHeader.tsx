@@ -1,7 +1,7 @@
 import React from "react";
 import { CaretLeft } from "components/Icons";
 
-const GalleryRowHeader1 = ({
+const GalleryRowHeader = ({
   title,
   detail,
 }: {
@@ -33,4 +33,4 @@ const GalleryRowHeader1 = ({
   );
 };
 
-export default GalleryRowHeader1;
+export default GalleryRowHeader;

@@ -5,14 +5,12 @@ const GalleryRowHeader = ({
   title,
   detail,
 }: {
-  title: string;
+  title?: string;
   detail?: string;
 }) => {
   return (
     <div
-      className={`flex justify-between pb-2 ${
-        !detail && "border-b border-darkcharcoal"
-      }`}
+      className={`flex justify-between pb-2`}
     >
       <div className="flex flex-col">
       <span className="text-lg font-bold">{title}</span>

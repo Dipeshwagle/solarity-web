@@ -54,7 +54,7 @@ import { FaDiscord } from "react-icons/fa";import { MENU_LINKS } from "data/prof
         <span className="max-w-[750px] text-sm text-center text-gray-950">
           Just a common bee trying to contribute as much as possible to the human hive mind.<br></br>
           And make sure that that the concept of decetrnalization, 
-          creator's economy and web3.0 are proudly represented.
+          creator&apos;s economy and web3.0 are proudly represented.
         </span>
       </div>
       <div className="flex justify-center gap-8 mt-8">

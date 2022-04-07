@@ -32,7 +32,7 @@ const MenutItems = [
 
 const Header = ({ sol }: { sol?: boolean }) => {
   return (
-    <header className="flex items-center justify-between px-5 py-4 mx-auto max-w-7xl">
+    <header className="z-10 flex items-center justify-between px-5 py-4 mx-auto max-w-7xl" >
       <div className="py-3">
         <Logo />
       </div>

@@ -6,16 +6,16 @@ import { Post } from "modal/post";
 import Footer from "components/Post/Footer";
 import { VR } from "components/Icons";
 
-import AframeComp from "components/AframeComp";
-import AframeComp1 from "components/AframeComp1";
-import AframeComp2 from "components/AframeComp2";
-import AframeComp3 from "components/AframeComp3";
-import AframeComp4 from "components/AframeComp4";
-import AframeComp5 from "components/AframeComp5";
-import AframeComp6 from "components/AframeComp6";
-import AframeComp7 from "components/AframeComp7";
-import AframeComp8 from "components/AframeComp8";
-import AframeComp9 from "components/AframeComp9";
+import AframeComp from "components/Aframe/AframeComp";
+import AframeComp1 from "components/Aframe/AframeComp1";
+import AframeComp2 from "components/Aframe/AframeComp2";
+import AframeComp3 from "components/Aframe/AframeComp3";
+import AframeComp4 from "components/Aframe/AframeComp4";
+import AframeComp5 from "components/Aframe/AframeComp5";
+import AframeComp6 from "components/Aframe/AframeComp6";
+import AframeComp7 from "components/Aframe/AframeComp7";
+import AframeComp8 from "components/Aframe/AframeComp8";
+import AframeComp9 from "components/Aframe/AframeComp9";
 
 const index = ({
   data: { title, subtitle, likes, vr, vr1, vr2, vr3, vr4, vr5, vr6, vr7, vr8, vr9, type, tags, progress, user },

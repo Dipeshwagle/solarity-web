@@ -1,11 +1,11 @@
 import React, { FC } from "react";
 import Image from "next/image";
 import { VR } from "components/Icons";
-import AframeComp1 from "components/AframeComp1";
-import AframeComp6 from "components/AframeComp6";
-import AframeComp7 from "components/AframeComp7";
-import AframeComp8 from "components/AframeComp8";
-import AframeComp9 from "components/AframeComp9";
+import AframeComp1 from "components/Aframe/AframeComp1";
+import AframeComp6 from "components/Aframe/AframeComp6";
+import AframeComp7 from "components/Aframe/AframeComp7";
+import AframeComp8 from "components/Aframe/AframeComp8";
+import AframeComp9 from "components/Aframe/AframeComp9";
 
 export interface HeroProps {
   vr?: {

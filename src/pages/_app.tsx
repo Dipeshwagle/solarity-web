@@ -2,6 +2,7 @@ import React from "react";
 import type { AppProps } from "next/app";
 import dynamic from "next/dynamic";
 import { ConnectionProvider } from "@solana/wallet-adapter-react";
+import '../../node_modules/react-modal-video/css/modal-video.min.css';
 
 // For redux
 import { Provider } from "react-redux";

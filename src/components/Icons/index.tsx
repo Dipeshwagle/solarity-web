@@ -28,3 +28,5 @@ export { default as Twitter } from "./Twitter";
 export { default as Discord } from "./Discord";
 export { default as DaoConnect } from './DaoConnect'
 export { default as Login } from './Login'
+export { default as DownloadOval } from './DownloadOval'
+export { default as Play } from './Play'

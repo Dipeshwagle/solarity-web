@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import Image from "next/image";
-import AframeComp2 from "components/AframeComp2";
-import AframeComp6 from "components/AframeComp6";
+import AframeComp2 from "components/Aframe/AframeComp2";
+import AframeComp6 from "components/Aframe/AframeComp6";
 import Link from "next/link";
 
 export interface BannerProps {
@@ -10,7 +10,7 @@ export interface BannerProps {
     imageUrl: string,
     price: string,
   },
-  vrdao: {
+  vrdao?: {
     featured: boolean,
     imageUrl: string,
     price: string,

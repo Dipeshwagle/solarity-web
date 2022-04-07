@@ -1,7 +1,6 @@
 import React, { FC } from "react";
 import Header from "components/Layout/Header";
 import Sidebar from "components/Layout/Sidebar";
-import Hot from "components/Widget/Hot";
 
 interface Props {
   children: React.ReactNode;
