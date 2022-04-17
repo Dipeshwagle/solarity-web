@@ -6,7 +6,7 @@ import { HotWidget } from "modal/widgets";
 const Hot = ({ data }: { data: HotWidget[] }) => {
   return (
     <Base title="What's Hot">
-      <div className="divide-y divide-borderwidget">
+      <div className="divide-y divide-borderLight divide:border-borderwidget">
         {data.map(({ title, subtitle, graph: { type, value } }, index) => (
           <div className="flex justify-between px-4 py-3" key={index}>
             <div className="flex items-center">

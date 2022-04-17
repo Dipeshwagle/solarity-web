@@ -8,7 +8,7 @@ import { PostType } from "modal/post";
 
 const Footer = ({ type }: { type: PostType }) => {
   return (
-    <div className="border-t justify-between  border-[hsl(210,9%,9%)] flex px-10 py-5 bg-[#1F2125] border-l border-r border-l-darkcharcoal border-r-darkcharcoal w-full">
+    <div className="border-t justify-between border-borderLight dark:border-[hsl(210,9%,9%)] flex px-10 py-5 bg-bgLight dark:bg-[#1F2125] border-l border-r border-l-darkcharcoal border-r-darkcharcoal w-full">
       <div className="flex gap-6" >
         <div className="flex items-center justify-center gap-3">
           <span className="text-xs text-gray-950">Posted by</span>

@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "components/Logo";
 import MenuList from "./MenuList";
+import ThemeSwitcher from "components/Layout/ThemeToggle";
 import WalletButton from "components/WalletButton";
 import Image from "next/image";
 
@@ -32,14 +33,18 @@ const MenutItems = [
 
 const Header = ({ sol }: { sol?: boolean }) => {
   return (
-    <header className="z-10 flex items-center justify-between px-5 py-4 mx-auto max-w-7xl" >
+    <header className="z-10 flex items-center justify-between px-5 py-4 mx-auto max-w-7xl">
       <div className="py-3">
         <Logo />
       </div>
       <div className="flex items-center">
         <MenuList items={MenutItems} />
         <div className="flex items-center space-x-3 ml-28">
-          <button className={`gap-3 text-lg font-bold btn rounded-3xl ${sol && 'btn-primary'}`}>
+          <button
+            className={`gap-3 text-lg font-bold btn rounded-3xl ${
+              sol && "btn-primary"
+            }`}
+          >
             {sol ? (
               <Image
                 src="/images/icons/sol.png"
@@ -53,6 +58,7 @@ const Header = ({ sol }: { sol?: boolean }) => {
             {sol ? "SOL" : "ETH"}
             <CaretDown />
           </button>
+          <ThemeSwitcher />
           <WalletButton />
         </div>
       </div>

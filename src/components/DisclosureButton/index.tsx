@@ -20,7 +20,7 @@ const DisclosureButton = ({ items }: Iprops) => {
       <Disclosure>
         {({ open }) => (
           <>
-            <Disclosure.Button className="flex items-center gap-4 font-bold bg-[#151719] border-none btn normal-case text-lg">
+            <Disclosure.Button className="flex items-center gap-4 font-bold bg-[#151719] border-none btn normal-case text-lg rounded-full bg-bgLight dark:bg-base-100 ">
               <List />
               <span>Your DAOS</span>
               <CaretDown className={`${open ? "transform rotate-180" : ""}`} />

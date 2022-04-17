@@ -1,22 +1,30 @@
 module.exports = {
   mode: "jit",
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: "class",
+  
   theme: {
+    backgroundImage: {
+      dark: "linear-gradient(to right top, #151719, #151719, #151719, #151719, #151719);",
+      radical:"linear-gradient(to right top, #572772, #86366c, #a45169, #b7716d, #c3927c);",
+    },
     fontFamily: {
       sans: ['"SF Pro Display"', "sans-serif"],
       serif: ['"SF Pro Display"', "serif"],
     },
     extend: {
-      fontSize:{
-        ['brand-md']:'15px',
-        ['brand-lg']:'19px'
+      fontSize: {
+        ["brand-md"]: "15px",
+        ["brand-lg"]: "19px",
       },
       colors: {
+        bgLight:'rgba(31, 33, 37, 0.35)',
         brandblack: "#1F2125",
+        lightAction:'#1BC5C5',
+        borderLight:'rgba(255, 255, 255, 0.12)',
         transparentwhite: "rgba(255, 255, 255, 0.4)",
+        cardLight:'rgba(31, 33, 37, 0.35)',
         darkcharcoal: "#2F3336",
         borderwidget: "rgba(37, 51, 65, 0.5)",
         gray: {

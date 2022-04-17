@@ -10,7 +10,7 @@ const DisclosureButton = () => {
       <Disclosure>
         {({ open }) => (
           <>
-            <Disclosure.Button className="flex items-center justify-center gap-4 bg-[#151719] border-none btn normal-case">
+            <Disclosure.Button className="flex items-center justify-center gap-4 bg-[#151719] border-none btn normal-case bg-transparent bg:bg-base-100">
               <Image src={AavatartPlaceholder} alt="user avatar" />
               <div className="flex flex-col items-start">
                   <span className="font-bold text-md">Kamil Kalkan</span>

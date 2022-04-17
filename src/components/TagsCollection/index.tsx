@@ -18,7 +18,7 @@ const TagsCollection: FC<Iprops> = ({ tags, onChange }) => {
       {tags.map((tag, index) => (
         <button
           className={classname(
-            activeTagIndex === index ? "btn-secondary" : "btn-primary",
+            activeTagIndex === index ? " bg-lightAction dark:btn-secondary border-none" : "btn-primary",
             "rounded-full btn btn-sm  h-7 text-sm normal-case font-normal"
           )}
           key={index}

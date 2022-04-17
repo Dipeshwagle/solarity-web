@@ -23,7 +23,7 @@ const SearchInput = () => {
       </span>
       <input
         type="search"
-        className="w-full py-4 pl-12 text-[15px] text-white rounded-full bg-primary focus:outline-none focus:bg-black focus:text-white placeholder:text-gray-950Í"
+        className="w-full py-4 pl-12 text-[15px] text-white rounded-full bg-borderLight dark:bg-primary focus:outline-none dark:focus:bg-black dark:focus:bg-borderLight focus:text-white dark:placeholder:text-gray-950 placeholder:text-white"
         placeholder="Search"
         autoComplete="off"
       />

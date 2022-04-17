@@ -16,8 +16,8 @@ const WidgetBase: FC<IProps> = ({
   children,
 }) => {
   return (
-    <div className="justify-between bg-brandblack rounded-3xl">
-      <div className="flex items-center justify-between border-b border-borderwidget">
+    <div className="justify-between bg-cardLight dark:bg-brandblack rounded-3xl">
+      <div className="flex items-center justify-between border-b border-borderLight dark:border-borderwidget">
         <div className="flex flex-col p-5">
           <div className="flexfont-[19px] font-bold">{title} </div>
           {subtitle && <div className="text-sm text-gray-950">{subtitle} </div>}

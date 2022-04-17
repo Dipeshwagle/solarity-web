@@ -24,7 +24,7 @@ const index = ({
 }) => {
   return (
     <div>
-      <div className="flex gap-4  bg-[#1F2125] px-5 py-3 border-l border-darkcharcoal border-r ">
+      <div className="flex gap-4 bg-bgLight  dark:bg-[#1F2125] px-5 py-3 border-l border-darkcharcoal border-r">
         <div className="flex">
           <div className="relative mt-3 w-14 h-14">
             <Image
